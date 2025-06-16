@@ -5,69 +5,57 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Painel de Pronto Atendimento", layout="wide")
 
-# Estilo de título
-st.title("🏥 Painel de Dados - Pronto Atendimento Médico")
+st.title("Painel de Dados - Pronto Atendimento Médico")
 
-# Leitura do CSV direto do arquivo
 @st.cache_data
 def carregar_dados():
     return pd.read_csv("atendimentos.csv")
 
-# Botão para atualizar dados
-if st.button("🔄 Recarregar dados"):
-    dados = carregar_dados()
-else:
+try:
     dados = carregar_dados()
 
-# Exibe tabela de dados
-st.subheader("📄 Dados Carregados")
-st.dataframe(dados)
+    st.subheader("Dados Carregados")
+    st.dataframe(dados)
 
-# Gráfico: Média de idade
-st.subheader("📊 Média de Idade dos Pacientes")
-media_idade = dados["Idade"].mean()
-st.write(f"📌 Média de idade: **{media_idade:.1f} anos**")
+    st.subheader("Média de Idade dos Pacientes")
+    media_idade = dados["Idade"].mean()
+    st.write(f"Média de idade: {media_idade:.1f} anos")
 
-# Histograma de idades
-fig, ax = plt.subplots()
-sns.histplot(dados["Idade"], bins=10, kde=True, color='skyblue', ax=ax)
-ax.set_xlabel("Idade")
-ax.set_ylabel("Quantidade de Pacientes")
-st.pyplot(fig)
+    fig, ax = plt.subplots()
+    sns.histplot(dados["Idade"], bins=10, kde=True, ax=ax)
+    ax.set_xlabel("Idade")
+    ax.set_ylabel("Número de Pacientes")
+    ax.set_title("Distribuição das Idades dos Pacientes")
+    st.pyplot(fig)
 
-# Gráfico: Médico que mais atendeu
-st.subheader("📊 Quantidade de Atendimentos por Médico")
-fig2, ax2 = plt.subplots()
-sns.countplot(y="Médico", data=dados, order=dados["Médico"].value_counts().index, palette="viridis", ax=ax2)
-st.pyplot(fig2)
+    st.subheader("Atendimentos por Médico")
+    fig2, ax2 = plt.subplots()
+    sns.countplot(y="Médico", data=dados, order=dados["Médico"].value_counts().index, ax=ax2)
+    ax2.set_xlabel("Número de Atendimentos")
+    ax2.set_ylabel("Médico")
+    st.pyplot(fig2)
 
-# Gráfico: Horário de pico de atendimento
-st.subheader("📊 Distribuição de Atendimentos por Hora")
-dados["Hora"] = pd.to_datetime(dados["Hora"], format="%H:%M").dt.hour
-fig3, ax3 = plt.subplots()
-sns.histplot(dados["Hora"], bins=range(0, 25), color="coral", ax=ax3)
-ax3.set_xlabel("Hora do Dia")
-ax3.set_ylabel("Quantidade de Atendimentos")
-st.pyplot(fig3)
+    st.subheader("Atendimentos por Hora")
+    dados["Hora"] = pd.to_datetime(dados["Hora"], format="%H:%M").dt.hour
+    fig3, ax3 = plt.subplots()
+    sns.histplot(dados["Hora"], bins=range(0, 25), ax=ax3)
+    ax3.set_xlabel("Hora do Atendimento")
+    ax3.set_ylabel("Número de Atendimentos")
+    st.pyplot(fig3)
 
-# Gráfico: Casos de Síndromes Respiratórias
-st.subheader("📊 Casos de Síndromes Respiratórias")
-fig4, ax4 = plt.subplots()
-sns.countplot(x="Síndrome_Respiratória", data=dados, palette="pastel", ax=ax4)
-st.pyplot(fig4)
+    st.subheader("Casos de Síndromes Respiratórias")
+    fig4, ax4 = plt.subplots()
+    sns.countplot(x="Síndrome_Respiratória", data=dados, ax=ax4)
+    ax4.set_xlabel("Síndrome Respiratória")
+    ax4.set_ylabel("Quantidade")
+    st.pyplot(fig4)
 
-# Gráfico: Atestados médicos emitidos
-st.subheader("📊 Atestados Médicos Emitidos")
-fig5, ax5 = plt.subplots()
-sns.countplot(x="Atestado", data=dados, palette="Set2", ax=ax5)
-st.pyplot(fig5)
+    st.subheader("Atestados Médicos Emitidos")
+    fig5, ax5 = plt.subplots()
+    sns.countplot(x="Atestado", data=dados, ax=ax5)
+    ax5.set_xlabel("Atestado Médico")
+    ax5.set_ylabel("Quantidade")
+    st.pyplot(fig5)
 
-# Download dos dados
-st.subheader("📥 Exportar dados atualizados")
-csv = dados.to_csv(index=False).encode('utf-8')
-st.download_button(
-    label="⬇️ Baixar CSV dos Dados",
-    data=csv,
-    file_name="atendimentos_exportado.csv",
-    mime="text/csv",
-)
+except Exception as e:
+    st.error(f"Ocorreu um erro ao carregar ou processar os dados: {e}")
