@@ -1,201 +1,201 @@
-Paciente,Idade,M�dico,Hora,S��ndrome_Respirat�ria,Atestado;;;;;;;
-Ana Souza,72,Dr. Pedro,21:20,Sim,Sim;;;;;;;
-Fernanda Alves,72,Dr. João,16:44,Sim,Sim;;;;;;;
-Fernanda Alves,65,Dr. Pedro,12:41,Sim,Não;;;;;;;
-Patrícia Santos,52,Dr. Paula,11:30,Sim,Sim;;;;;;;
-Juliana Pires,74,Dr. Ana,07:07,Sim,Sim;;;;;;;
-Juliana Pires,60,Dr. Pedro,19:10,Sim,Não;;;;;;;
-Luciana Ribeiro,42,Dr. João,15:47,Não,Não;;;;;;;
-Felipe Cardoso,43,Dr. Pedro,09:31,Não,Sim;;;;;;;
-André Moraes,44,Dr. João,11:24,Não,Não;;;;;;;
-André Moraes,33,Dr. Ana,19:39,Não,Não;;;;;;;
-Felipe Cardoso,30,Dr. Pedro,20:25,Sim,Sim;;;;;;;
-Fernanda Alves,76,Dr. Paula,09:13,Sim,Sim;;;;;;;
-André Moraes,19,Dr. Ana,14:09,Não,Não;;;;;;;
-Luciana Ribeiro,79,Dr. Pedro,16:15,Sim,Sim;;;;;;;
-Amanda Nunes,71,Dr. Ana,22:16,Não,Não;;;;;;;
-Marina Costa,46,Dr. Pedro,07:40,Sim,Sim;;;;;;;
-Simone Castro,68,Dr. Ana,12:41,Sim,Sim;;;;;;;
-Patrícia Santos,73,Dr. João,12:44,Sim,Não;;;;;;;
-Simone Castro,48,Dr. Paula,22:18,Não,Não;;;;;;;
-Carlos Lima,31,Dr. Paula,12:42,Não,Sim;;;;;;;
-André Moraes,51,Dr. Ana,13:34,Não,Sim;;;;;;;
-Patrícia Santos,47,Dr. Pedro,20:50,Sim,Não;;;;;;;
-André Moraes,55,Dr. Ana,11:45,Não,Não;;;;;;;
-Gustavo Martins,36,Dr. Ana,22:10,Não,Sim;;;;;;;
-Amanda Nunes,34,Dr. Ana,22:11,Não,Sim;;;;;;;
-Patrícia Santos,37,Dr. Ana,12:14,Sim,Não;;;;;;;
-Carlos Lima,21,Dr. Ana,20:09,Sim,Sim;;;;;;;
-Simone Castro,64,Dr. Ana,09:41,Não,Sim;;;;;;;
-André Moraes,23,Dr. João,14:30,Não,Não;;;;;;;
-Rafael Dias,76,Dr. Paula,13:30,Sim,Não;;;;;;;
-Marina Costa,32,Dr. Ana,08:50,Não,Não;;;;;;;
-Luciana Ribeiro,66,Dr. Paula,16:21,Não,Não;;;;;;;
-Patrícia Santos,52,Dr. Paula,20:02,Não,Não;;;;;;;
-Marina Costa,66,Dr. Pedro,16:13,Sim,Não;;;;;;;
-Fernanda Alves,42,Dr. Pedro,16:23,Não,Não;;;;;;;
-Luciana Ribeiro,71,Dr. Ana,10:16,Não,Sim;;;;;;;
-André Moraes,72,Dr. Paula,19:15,Sim,Não;;;;;;;
-Juliana Pires,72,Dr. João,09:10,Sim,Sim;;;;;;;
-Juliana Pires,58,Dr. Ana,21:39,Sim,Sim;;;;;;;
-Carlos Lima,35,Dr. João,17:07,Não,Não;;;;;;;
-Simone Castro,40,Dr. João,14:26,Sim,Sim;;;;;;;
-Carlos Lima,73,Dr. Ana,19:34,Não,Não;;;;;;;
-André Moraes,38,Dr. Ana,14:31,Sim,Sim;;;;;;;
-Luciana Ribeiro,59,Dr. Ana,09:14,Sim,Não;;;;;;;
-Ana Souza,58,Dr. Paula,09:01,Sim,Sim;;;;;;;
-Amanda Nunes,77,Dr. João,09:50,Não,Não;;;;;;;
-Luciana Ribeiro,18,Dr. Ana,15:38,Sim,Sim;;;;;;;
-Juliana Pires,40,Dr. Paula,20:50,Sim,Sim;;;;;;;
-Felipe Cardoso,38,Dr. João,21:14,Sim,Sim;;;;;;;
-Luciana Ribeiro,40,Dr. Pedro,20:35,Não,Sim;;;;;;;
-Ana Souza,25,Dr. João,11:34,Sim,Sim;;;;;;;
-Eduardo Lopes,18,Dr. Paula,21:01,Não,Sim;;;;;;;
-Rafael Dias,78,Dr. Pedro,13:31,Não,Não;;;;;;;
-Gustavo Martins,69,Dr. Paula,11:11,Sim,Não;;;;;;;
-Rafael Dias,69,Dr. Pedro,07:16,Não,Sim;;;;;;;
-Ana Souza,54,Dr. Pedro,14:31,Não,Sim;;;;;;;
-André Moraes,33,Dr. Pedro,21:10,Sim,Não;;;;;;;
-Luciana Ribeiro,35,Dr. João,17:55,Não,Sim;;;;;;;
-Patrícia Santos,40,Dr. Paula,22:36,Não,Não;;;;;;;
-Luciana Ribeiro,75,Dr. Paula,14:38,Sim,Não;;;;;;;
-Amanda Nunes,48,Dr. João,13:06,Não,Não;;;;;;;
-Juliana Pires,70,Dr. Paula,20:43,Sim,Não;;;;;;;
-André Moraes,33,Dr. Pedro,14:51,Sim,Sim;;;;;;;
-Rafael Dias,61,Dr. Pedro,13:59,Não,Sim;;;;;;;
-Gustavo Martins,36,Dr. Paula,09:14,Sim,Não;;;;;;;
-Amanda Nunes,50,Dr. João,22:21,Não,Não;;;;;;;
-Juliana Pires,69,Dr. Pedro,12:01,Sim,Não;;;;;;;
-Gustavo Martins,31,Dr. Ana,09:12,Sim,Não;;;;;;;
-Gustavo Martins,50,Dr. Pedro,19:25,Não,Não;;;;;;;
-Gustavo Martins,40,Dr. Pedro,16:52,Não,Sim;;;;;;;
-Fernanda Alves,38,Dr. João,22:04,Não,Não;;;;;;;
-Amanda Nunes,64,Dr. Ana,23:00,Não,Sim;;;;;;;
-Amanda Nunes,46,Dr. Ana,16:59,Sim,Sim;;;;;;;
-Juliana Pires,47,Dr. Paula,11:42,Não,Não;;;;;;;
-Simone Castro,39,Dr. Pedro,16:00,Sim,Sim;;;;;;;
-Carlos Lima,76,Dr. Paula,20:49,Sim,Sim;;;;;;;
-Juliana Pires,73,Dr. Ana,10:23,Sim,Não;;;;;;;
-Gustavo Martins,73,Dr. Pedro,09:49,Sim,Não;;;;;;;
-Eduardo Lopes,41,Dr. Ana,12:59,Sim,Não;;;;;;;
-André Moraes,27,Dr. Paula,16:35,Sim,Sim;;;;;;;
-Marina Costa,49,Dr. João,14:04,Sim,Sim;;;;;;;
-Patrícia Santos,73,Dr. Paula,11:33,Sim,Sim;;;;;;;
-Marina Costa,77,Dr. Pedro,19:33,Sim,Não;;;;;;;
-Rafael Dias,51,Dr. Ana,07:33,Sim,Não;;;;;;;
-Patrícia Santos,43,Dr. Ana,22:12,Não,Sim;;;;;;;
-Carlos Lima,50,Dr. João,21:16,Sim,Não;;;;;;;
-Juliana Pires,60,Dr. Paula,22:11,Sim,Não;;;;;;;
-Bruno Silva,57,Dr. Pedro,20:14,Não,Sim;;;;;;;
-Carlos Lima,61,Dr. Paula,09:46,Sim,Não;;;;;;;
-Patrícia Santos,30,Dr. Pedro,10:13,Sim,Não;;;;;;;
-Simone Castro,32,Dr. João,22:19,Não,Sim;;;;;;;
-Bruno Silva,52,Dr. Ana,13:46,Não,Não;;;;;;;
-André Moraes,21,Dr. João,10:52,Sim,Sim;;;;;;;
-Eduardo Lopes,29,Dr. Pedro,19:09,Sim,Sim;;;;;;;
-Simone Castro,36,Dr. Pedro,08:14,Não,Não;;;;;;;
-Carlos Lima,77,Dr. Paula,16:13,Sim,Sim;;;;;;;
-Ana Souza,24,Dr. João,08:45,Sim,Não;;;;;;;
-Amanda Nunes,59,Dr. Ana,11:38,Sim,Sim;;;;;;;
-Carlos Lima,18,Dr. Pedro,07:57,Sim,Sim;;;;;;;
-Ana Souza,47,Dr. Ana,19:57,Não,Não;;;;;;;
-Bruno Silva,55,Dr. Pedro,11:11,Sim,Sim;;;;;;;
-Amanda Nunes,20,Dr. Paula,12:19,Não,Sim;;;;;;;
-Simone Castro,78,Dr. Pedro,14:42,Não,Sim;;;;;;;
-Amanda Nunes,50,Dr. Ana,12:35,Não,Sim;;;;;;;
-André Moraes,73,Dr. Paula,10:32,Não,Sim;;;;;;;
-Simone Castro,46,Dr. João,20:07,Sim,Não;;;;;;;
-Rafael Dias,48,Dr. João,15:53,Não,Sim;;;;;;;
-Bruno Silva,53,Dr. Ana,16:19,Sim,Não;;;;;;;
-Bruno Silva,38,Dr. Pedro,15:56,Não,Não;;;;;;;
-Luciana Ribeiro,55,Dr. Pedro,12:48,Não,Não;;;;;;;
-Fernanda Alves,62,Dr. Paula,08:50,Não,Sim;;;;;;;
-Eduardo Lopes,47,Dr. Ana,15:13,Sim,Não;;;;;;;
-Patrícia Santos,80,Dr. Paula,10:02,Sim,Sim;;;;;;;
-Fernanda Alves,24,Dr. João,21:41,Não,Não;;;;;;;
-Ana Souza,78,Dr. Paula,17:38,Não,Sim;;;;;;;
-Eduardo Lopes,59,Dr. Ana,08:39,Sim,Não;;;;;;;
-André Moraes,75,Dr. Paula,11:22,Não,Não;;;;;;;
-Ana Souza,31,Dr. João,15:07,Sim,Sim;;;;;;;
-Marina Costa,63,Dr. Paula,10:29,Sim,Sim;;;;;;;
-Carlos Lima,65,Dr. Pedro,18:17,Sim,Sim;;;;;;;
-André Moraes,66,Dr. Pedro,12:01,Não,Não;;;;;;;
-Amanda Nunes,41,Dr. Ana,11:00,Não,Não;;;;;;;
-Luciana Ribeiro,65,Dr. Paula,18:07,Sim,Não;;;;;;;
-Eduardo Lopes,76,Dr. João,10:39,Não,Não;;;;;;;
-Amanda Nunes,30,Dr. João,19:07,Sim,Sim;;;;;;;
-Juliana Pires,45,Dr. Paula,16:53,Sim,Sim;;;;;;;
-Juliana Pires,46,Dr. João,09:29,Sim,Sim;;;;;;;
-Juliana Pires,43,Dr. Ana,11:56,Sim,Sim;;;;;;;
-Amanda Nunes,78,Dr. João,15:47,Sim,Não;;;;;;;
-Bruno Silva,50,Dr. João,19:59,Não,Sim;;;;;;;
-Carlos Lima,71,Dr. Ana,11:52,Não,Não;;;;;;;
-Rafael Dias,19,Dr. Pedro,10:56,Sim,Sim;;;;;;;
-Amanda Nunes,62,Dr. Pedro,21:35,Não,Não;;;;;;;
-Eduardo Lopes,27,Dr. João,16:54,Sim,Sim;;;;;;;
-Ana Souza,58,Dr. Ana,19:05,Sim,Sim;;;;;;;
-Carlos Lima,54,Dr. Ana,18:13,Sim,Não;;;;;;;
-Ana Souza,74,Dr. João,18:56,Sim,Sim;;;;;;;
-Eduardo Lopes,56,Dr. João,08:44,Não,Não;;;;;;;
-Ana Souza,69,Dr. João,18:57,Não,Sim;;;;;;;
-Juliana Pires,64,Dr. Ana,12:04,Não,Sim;;;;;;;
-Eduardo Lopes,35,Dr. Ana,08:17,Sim,Sim;;;;;;;
-Gustavo Martins,24,Dr. Pedro,16:33,Não,Sim;;;;;;;
-Felipe Cardoso,51,Dr. João,09:36,Sim,Não;;;;;;;
-Juliana Pires,64,Dr. Paula,17:10,Sim,Sim;;;;;;;
-Juliana Pires,53,Dr. João,08:33,Não,Sim;;;;;;;
-Ana Souza,80,Dr. Pedro,07:29,Sim,Não;;;;;;;
-Rafael Dias,23,Dr. Ana,15:34,Sim,Sim;;;;;;;
-Amanda Nunes,56,Dr. Ana,21:33,Sim,Não;;;;;;;
-Ana Souza,53,Dr. Ana,18:57,Não,Sim;;;;;;;
-Juliana Pires,79,Dr. Pedro,21:41,Sim,Não;;;;;;;
-Gustavo Martins,79,Dr. Pedro,20:37,Sim,Não;;;;;;;
-Marina Costa,42,Dr. Ana,22:26,Não,Sim;;;;;;;
-Luciana Ribeiro,59,Dr. Ana,14:08,Sim,Não;;;;;;;
-Rafael Dias,58,Dr. João,08:47,Não,Não;;;;;;;
-Eduardo Lopes,36,Dr. João,09:10,Não,Sim;;;;;;;
-Patrícia Santos,77,Dr. João,21:33,Não,Não;;;;;;;
-Eduardo Lopes,21,Dr. Pedro,12:31,Não,Sim;;;;;;;
-Bruno Silva,40,Dr. João,11:37,Sim,Sim;;;;;;;
-André Moraes,35,Dr. João,15:12,Sim,Sim;;;;;;;
-Bruno Silva,62,Dr. Ana,13:09,Sim,Sim;;;;;;;
-Rafael Dias,52,Dr. Paula,16:21,Não,Não;;;;;;;
-Fernanda Alves,49,Dr. João,22:38,Não,Não;;;;;;;
-Gustavo Martins,61,Dr. Pedro,21:49,Não,Não;;;;;;;
-Bruno Silva,73,Dr. Ana,11:53,Sim,Sim;;;;;;;
-Bruno Silva,37,Dr. Pedro,07:29,Sim,Não;;;;;;;
-André Moraes,58,Dr. Ana,12:16,Sim,Não;;;;;;;
-Carlos Lima,24,Dr. Pedro,12:15,Sim,Sim;;;;;;;
-Marina Costa,25,Dr. Paula,07:53,Não,Não;;;;;;;
-Juliana Pires,21,Dr. Ana,22:27,Não,Sim;;;;;;;
-Gustavo Martins,18,Dr. Pedro,14:36,Não,Sim;;;;;;;
-Fernanda Alves,79,Dr. Pedro,18:06,Sim,Sim;;;;;;;
-Eduardo Lopes,69,Dr. Paula,13:46,Sim,Sim;;;;;;;
-Ana Souza,75,Dr. Ana,22:22,Sim,Sim;;;;;;;
-Simone Castro,69,Dr. Ana,14:06,Sim,Sim;;;;;;;
-Carlos Lima,42,Dr. João,22:36,Sim,Não;;;;;;;
-Felipe Cardoso,55,Dr. Ana,09:23,Não,Sim;;;;;;;
-Fernanda Alves,30,Dr. Ana,15:56,Não,Sim;;;;;;;
-Patrícia Santos,61,Dr. Ana,17:31,Não,Sim;;;;;;;
-Gustavo Martins,48,Dr. Pedro,18:45,Sim,Não;;;;;;;
-Patrícia Santos,26,Dr. Ana,11:37,Sim,Não;;;;;;;
-Amanda Nunes,74,Dr. Paula,20:09,Sim,Sim;;;;;;;
-Eduardo Lopes,24,Dr. Paula,11:46,Não,Sim;;;;;;;
-Gustavo Martins,47,Dr. Ana,11:03,Sim,Não;;;;;;;
-Simone Castro,50,Dr. Paula,07:13,Não,Não;;;;;;;
-Patrícia Santos,73,Dr. Paula,12:53,Sim,Não;;;;;;;
-Eduardo Lopes,33,Dr. Paula,21:21,Sim,Não;;;;;;;
-Gustavo Martins,44,Dr. Ana,14:15,Sim,Sim;;;;;;;
-André Moraes,58,Dr. Paula,12:00,Não,Sim;;;;;;;
-André Moraes,42,Dr. Pedro,16:43,Sim,Sim;;;;;;;
-Rafael Dias,70,Dr. Pedro,14:27,Não,Sim;;;;;;;
-Ana Souza,67,Dr. João,09:15,Sim,Não;;;;;;;
-Bruno Silva,18,Dr. Pedro,08:25,Sim,Não;;;;;;;
-Marina Costa,29,Dr. Pedro,14:15,Não,Não;;;;;;;
-Bruno Silva,63,Dr. Paula,18:13,Não,Não;;;;;;;
-Ana Souza,49,Dr. Paula,12:05,Não,Não;;;;;;;
-Marina Costa,23,Dr. Ana,21:10,Não,Sim;;;;;;;
-Patrícia Santos,57,Dr. João,17:26,Sim,Não;;;;;;;
-Rafael Dias,43,Dr. Ana,22:38,Sim,Não;;;;;;;
-Marina Costa,42,Dr. João,19:13,Sim,Sim;;;;;;;
-Carlos Lima,80,Dr. João,17:06,Sim,Sim;;;;;;;
+Nome,Idade,Gênero,Médico,Turno,Atestado
+Paciente 1,56,Feminino,Dra. Costa,ADM,1
+Paciente 2,69,Masculino,Dra. Oliveira,ADM,0
+Paciente 3,46,Masculino,Dr. Souza,1º Turno,0
+Paciente 4,32,Masculino,Dra. Costa,2º Turno,0
+Paciente 5,60,Masculino,Dra. Oliveira,ADM,0
+Paciente 6,25,Masculino,Dr. Silva,2º Turno,1
+Paciente 7,78,Masculino,Dr. Souza,2º Turno,1
+Paciente 8,38,Masculino,Dr. Silva,3º Turno,0
+Paciente 9,56,Feminino,Dr. Silva,1º Turno,0
+Paciente 10,75,Masculino,Dra. Oliveira,ADM,0
+Paciente 11,36,Feminino,Dra. Costa,3º Turno,1
+Paciente 12,40,Masculino,Dra. Oliveira,3º Turno,0
+Paciente 13,28,Masculino,Dra. Oliveira,ADM,0
+Paciente 14,28,Masculino,Dra. Oliveira,2º Turno,1
+Paciente 15,41,Feminino,Dra. Oliveira,3º Turno,1
+Paciente 16,70,Feminino,Dr. Souza,2º Turno,0
+Paciente 17,53,Feminino,Dra. Costa,1º Turno,1
+Paciente 18,57,Feminino,Dr. Silva,2º Turno,1
+Paciente 19,41,Masculino,Dr. Silva,1º Turno,0
+Paciente 20,20,Feminino,Dra. Costa,2º Turno,1
+Paciente 21,39,Masculino,Dr. Silva,3º Turno,0
+Paciente 22,70,Masculino,Dra. Costa,3º Turno,1
+Paciente 23,19,Feminino,Dr. Silva,1º Turno,0
+Paciente 24,41,Feminino,Dra. Oliveira,ADM,0
+Paciente 25,61,Feminino,Dr. Silva,1º Turno,0
+Paciente 26,47,Feminino,Dra. Costa,1º Turno,1
+Paciente 27,55,Feminino,Dra. Costa,2º Turno,0
+Paciente 28,19,Feminino,Dra. Costa,2º Turno,1
+Paciente 29,77,Feminino,Dra. Costa,1º Turno,0
+Paciente 30,38,Feminino,Dra. Costa,3º Turno,0
+Paciente 31,50,Masculino,Dr. Souza,2º Turno,1
+Paciente 32,29,Feminino,Dr. Souza,ADM,0
+Paciente 33,75,Feminino,Dr. Silva,2º Turno,0
+Paciente 34,39,Masculino,Dra. Costa,2º Turno,1
+Paciente 35,78,Feminino,Dr. Silva,ADM,0
+Paciente 36,61,Masculino,Dra. Costa,1º Turno,0
+Paciente 37,42,Masculino,Dra. Costa,ADM,0
+Paciente 38,66,Feminino,Dr. Souza,1º Turno,0
+Paciente 39,44,Masculino,Dr. Souza,1º Turno,1
+Paciente 40,76,Masculino,Dra. Oliveira,1º Turno,1
+Paciente 41,59,Masculino,Dr. Souza,ADM,0
+Paciente 42,45,Masculino,Dra. Oliveira,1º Turno,1
+Paciente 43,77,Feminino,Dra. Oliveira,3º Turno,0
+Paciente 44,33,Masculino,Dra. Oliveira,ADM,1
+Paciente 45,32,Feminino,Dra. Oliveira,3º Turno,0
+Paciente 46,79,Masculino,Dra. Oliveira,1º Turno,0
+Paciente 47,79,Masculino,Dr. Silva,2º Turno,0
+Paciente 48,64,Masculino,Dr. Souza,1º Turno,0
+Paciente 49,79,Masculino,Dra. Oliveira,3º Turno,0
+Paciente 50,68,Feminino,Dra. Costa,3º Turno,0
+Paciente 51,61,Feminino,Dr. Souza,ADM,1
+Paciente 52,72,Masculino,Dr. Souza,2º Turno,0
+Paciente 53,69,Masculino,Dra. Oliveira,ADM,1
+Paciente 54,74,Feminino,Dr. Silva,3º Turno,0
+Paciente 55,20,Masculino,Dra. Oliveira,1º Turno,1
+Paciente 56,54,Masculino,Dr. Silva,2º Turno,1
+Paciente 57,68,Masculino,Dra. Costa,1º Turno,1
+Paciente 58,24,Feminino,Dr. Souza,1º Turno,0
+Paciente 59,38,Feminino,Dra. Costa,2º Turno,0
+Paciente 60,26,Feminino,Dr. Silva,ADM,1
+Paciente 61,56,Masculino,Dr. Silva,1º Turno,0
+Paciente 62,35,Masculino,Dra. Costa,3º Turno,1
+Paciente 63,21,Feminino,Dr. Silva,1º Turno,0
+Paciente 64,42,Feminino,Dra. Costa,2º Turno,1
+Paciente 65,77,Feminino,Dr. Souza,2º Turno,1
+Paciente 66,31,Feminino,Dra. Costa,2º Turno,0
+Paciente 67,67,Masculino,Dr. Souza,ADM,1
+Paciente 68,75,Feminino,Dra. Costa,1º Turno,0
+Paciente 69,26,Masculino,Dr. Silva,ADM,1
+Paciente 70,43,Feminino,Dra. Costa,ADM,1
+Paciente 71,70,Masculino,Dr. Silva,2º Turno,0
+Paciente 72,19,Feminino,Dra. Costa,2º Turno,0
+Paciente 73,37,Feminino,Dra. Costa,ADM,0
+Paciente 74,45,Feminino,Dra. Oliveira,1º Turno,1
+Paciente 75,64,Feminino,Dr. Silva,3º Turno,0
+Paciente 76,77,Masculino,Dra. Oliveira,ADM,1
+Paciente 77,24,Feminino,Dr. Silva,1º Turno,1
+Paciente 78,61,Masculino,Dra. Oliveira,2º Turno,0
+Paciente 79,78,Masculino,Dr. Souza,2º Turno,0
+Paciente 80,25,Masculino,Dra. Costa,1º Turno,1
+Paciente 81,64,Masculino,Dr. Silva,3º Turno,1
+Paciente 82,52,Feminino,Dr. Silva,2º Turno,0
+Paciente 83,31,Masculino,Dra. Costa,2º Turno,0
+Paciente 84,34,Masculino,Dr. Silva,2º Turno,0
+Paciente 85,53,Masculino,Dr. Silva,1º Turno,0
+Paciente 86,67,Feminino,Dra. Oliveira,ADM,0
+Paciente 87,57,Feminino,Dr. Silva,2º Turno,1
+Paciente 88,21,Feminino,Dr. Souza,ADM,1
+Paciente 89,19,Feminino,Dr. Souza,3º Turno,1
+Paciente 90,79,Masculino,Dra. Costa,2º Turno,1
+Paciente 91,23,Masculino,Dr. Silva,2º Turno,0
+Paciente 92,71,Feminino,Dra. Costa,3º Turno,0
+Paciente 93,59,Masculino,Dr. Souza,2º Turno,0
+Paciente 94,21,Masculino,Dr. Silva,ADM,1
+Paciente 95,71,Masculino,Dr. Silva,1º Turno,1
+Paciente 96,46,Feminino,Dra. Costa,ADM,0
+Paciente 97,35,Feminino,Dr. Souza,1º Turno,0
+Paciente 98,43,Masculino,Dr. Silva,1º Turno,1
+Paciente 99,61,Feminino,Dra. Costa,ADM,1
+Paciente 100,51,Feminino,Dr. Souza,ADM,0
+Paciente 101,27,Feminino,Dra. Costa,ADM,0
+Paciente 102,79,Feminino,Dra. Oliveira,ADM,1
+Paciente 103,53,Feminino,Dr. Silva,3º Turno,0
+Paciente 104,31,Masculino,Dra. Oliveira,2º Turno,0
+Paciente 105,48,Feminino,Dr. Souza,1º Turno,0
+Paciente 106,65,Masculino,Dra. Oliveira,ADM,1
+Paciente 107,32,Masculino,Dra. Oliveira,ADM,1
+Paciente 108,25,Feminino,Dr. Souza,ADM,1
+Paciente 109,31,Masculino,Dra. Costa,3º Turno,1
+Paciente 110,40,Masculino,Dra. Oliveira,ADM,1
+Paciente 111,77,Masculino,Dra. Costa,ADM,1
+Paciente 112,74,Feminino,Dra. Oliveira,ADM,1
+Paciente 113,79,Feminino,Dra. Costa,2º Turno,0
+Paciente 114,57,Masculino,Dr. Souza,3º Turno,0
+Paciente 115,38,Feminino,Dra. Oliveira,ADM,0
+Paciente 116,33,Feminino,Dr. Souza,1º Turno,0
+Paciente 117,62,Feminino,Dra. Oliveira,1º Turno,0
+Paciente 118,35,Feminino,Dr. Souza,1º Turno,0
+Paciente 119,64,Masculino,Dr. Souza,3º Turno,0
+Paciente 120,70,Masculino,Dra. Oliveira,3º Turno,1
+Paciente 121,41,Feminino,Dra. Oliveira,1º Turno,1
+Paciente 122,43,Feminino,Dra. Oliveira,ADM,0
+Paciente 123,42,Masculino,Dr. Silva,3º Turno,0
+Paciente 124,77,Masculino,Dra. Costa,1º Turno,1
+Paciente 125,77,Feminino,Dr. Silva,1º Turno,0
+Paciente 126,77,Masculino,Dr. Silva,ADM,0
+Paciente 127,62,Feminino,Dr. Souza,2º Turno,1
+Paciente 128,58,Feminino,Dra. Oliveira,3º Turno,0
+Paciente 129,46,Masculino,Dra. Costa,ADM,1
+Paciente 130,32,Masculino,Dr. Souza,1º Turno,0
+Paciente 131,62,Feminino,Dr. Silva,1º Turno,1
+Paciente 132,18,Feminino,Dra. Oliveira,ADM,1
+Paciente 133,42,Masculino,Dr. Souza,3º Turno,1
+Paciente 134,24,Feminino,Dra. Oliveira,2º Turno,0
+Paciente 135,26,Masculino,Dr. Souza,2º Turno,1
+Paciente 136,41,Feminino,Dra. Oliveira,1º Turno,0
+Paciente 137,18,Masculino,Dr. Silva,3º Turno,0
+Paciente 138,61,Masculino,Dra. Costa,2º Turno,0
+Paciente 139,25,Masculino,Dr. Silva,3º Turno,0
+Paciente 140,41,Feminino,Dra. Costa,3º Turno,1
+Paciente 141,28,Feminino,Dra. Oliveira,1º Turno,1
+Paciente 142,68,Masculino,Dr. Souza,2º Turno,0
+Paciente 143,34,Feminino,Dr. Silva,ADM,0
+Paciente 144,25,Masculino,Dra. Costa,1º Turno,1
+Paciente 145,52,Masculino,Dr. Silva,2º Turno,0
+Paciente 146,52,Feminino,Dra. Costa,2º Turno,1
+Paciente 147,50,Feminino,Dr. Silva,2º Turno,0
+Paciente 148,76,Masculino,Dra. Costa,2º Turno,0
+Paciente 149,22,Feminino,Dra. Costa,2º Turno,1
+Paciente 150,59,Feminino,Dra. Oliveira,3º Turno,0
+Paciente 151,56,Masculino,Dra. Costa,1º Turno,1
+Paciente 152,75,Masculino,Dra. Oliveira,3º Turno,0
+Paciente 153,58,Feminino,Dra. Costa,ADM,0
+Paciente 154,45,Masculino,Dr. Souza,2º Turno,0
+Paciente 155,24,Masculino,Dr. Souza,1º Turno,1
+Paciente 156,26,Feminino,Dr. Souza,2º Turno,0
+Paciente 157,25,Masculino,Dra. Costa,1º Turno,0
+Paciente 158,29,Masculino,Dra. Oliveira,3º Turno,0
+Paciente 159,51,Feminino,Dra. Oliveira,1º Turno,0
+Paciente 160,50,Feminino,Dra. Costa,ADM,1
+Paciente 161,65,Masculino,Dr. Souza,ADM,1
+Paciente 162,72,Masculino,Dr. Souza,1º Turno,0
+Paciente 163,40,Feminino,Dra. Oliveira,1º Turno,1
+Paciente 164,79,Feminino,Dr. Souza,1º Turno,0
+Paciente 165,41,Feminino,Dr. Silva,1º Turno,0
+Paciente 166,54,Feminino,Dra. Oliveira,ADM,0
+Paciente 167,52,Masculino,Dr. Souza,2º Turno,1
+Paciente 168,61,Feminino,Dra. Oliveira,1º Turno,1
+Paciente 169,57,Feminino,Dr. Silva,1º Turno,1
+Paciente 170,39,Masculino,Dra. Oliveira,ADM,1
+Paciente 171,44,Feminino,Dra. Oliveira,ADM,1
+Paciente 172,52,Masculino,Dra. Oliveira,3º Turno,1
+Paciente 173,18,Feminino,Dra. Oliveira,1º Turno,1
+Paciente 174,52,Feminino,Dr. Silva,3º Turno,1
+Paciente 175,54,Feminino,Dra. Costa,ADM,1
+Paciente 176,64,Masculino,Dra. Oliveira,ADM,0
+Paciente 177,31,Masculino,Dra. Oliveira,2º Turno,1
+Paciente 178,20,Feminino,Dr. Souza,1º Turno,1
+Paciente 179,18,Masculino,Dra. Oliveira,3º Turno,1
+Paciente 180,22,Masculino,Dr. Souza,ADM,1
+Paciente 181,43,Masculino,Dra. Costa,ADM,1
+Paciente 182,72,Masculino,Dr. Silva,3º Turno,1
+Paciente 183,31,Masculino,Dr. Silva,2º Turno,1
+Paciente 184,56,Masculino,Dra. Costa,ADM,1
+Paciente 185,44,Feminino,Dr. Silva,1º Turno,1
+Paciente 186,26,Feminino,Dra. Costa,ADM,1
+Paciente 187,32,Masculino,Dra. Costa,1º Turno,1
+Paciente 188,32,Feminino,Dra. Costa,3º Turno,0
+Paciente 189,43,Feminino,Dr. Silva,1º Turno,0
+Paciente 190,59,Feminino,Dr. Souza,3º Turno,1
+Paciente 191,77,Feminino,Dra. Costa,1º Turno,1
+Paciente 192,30,Masculino,Dra. Oliveira,3º Turno,0
+Paciente 193,68,Feminino,Dr. Silva,1º Turno,1
+Paciente 194,49,Feminino,Dra. Costa,2º Turno,0
+Paciente 195,56,Masculino,Dra. Costa,1º Turno,0
+Paciente 196,66,Masculino,Dra. Oliveira,1º Turno,0
+Paciente 197,69,Feminino,Dr. Souza,2º Turno,0
+Paciente 198,78,Feminino,Dr. Souza,ADM,0
+Paciente 199,49,Feminino,Dr. Souza,ADM,1
+Paciente 200,21,Feminino,Dra. Costa,1º Turno,0
