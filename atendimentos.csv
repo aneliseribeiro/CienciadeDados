@@ -1,201 +1,201 @@
-Nome;Idade;Genero;Médico;Turno;Atestado
-Ana da Silva;34;F;Dr. Barros;1º turno;0
-Carlos Mendes;56;M;Dra. Almeida;1º turno;1
-Fernanda Rocha;28;F;Dr. Costa;1º turno;0
-João Batista;71;M;Dra. Martins;1º turno;0
-Patrícia Oliveira;22;F;Dr. Oliveira;1º turno;1
-Felipe Souza;42;M;Dr. Barros;1º turno;0
-Larissa Martins;18;F;Dra. Almeida;1º turno;1
-Rafael Lima;65;M;Dr. Costa;1º turno;0
-Camila Duarte;33;F;Dra. Martins;1º turno;0
-Marcos Ferreira;48;M;Dr. Oliveira;1º turno;1
-Juliana Gomes;37;F;Dr. Barros;1º turno;0
-Bruno Cardoso;50;M;Dra. Almeida;1º turno;0
-Vanessa Moreira;25;F;Dr. Costa;1º turno;1
-Lucas Pires;19;M;Dra. Martins;1º turno;0
-Aline Andrade;41;F;Dr. Oliveira;1º turno;0
-Daniel Ribeiro;29;M;Dr. Barros;1º turno;1
-Beatriz Monteiro;21;F;Dra. Almeida;1º turno;0
-Gabriel Barros;12;M;Dr. Costa;1º turno;0
-Isabela Ramos;64;F;Dra. Martins;1º turno;1
-Rodrigo Nogueira;38;M;Dr. Oliveira;1º turno;0
-Mariana Teixeira;32;F;Dr. Barros;1º turno;0
-Thiago Almeida;43;M;Dra. Almeida;1º turno;1
-Paula Freitas;27;F;Dr. Costa;1º turno;0
-Gustavo Antunes;59;M;Dra. Martins;1º turno;0
-Bianca Figueiredo;36;F;Dr. Oliveira;1º turno;1
-André Castro;61;M;Dr. Barros;1º turno;0
-Tatiane Melo;40;F;Dra. Almeida;1º turno;1
-Leonardo Carvalho;53;M;Dr. Costa;1º turno;0
-Karina Costa;30;F;Dra. Martins;1º turno;0
-Eduardo Tavares;47;M;Dr. Oliveira;1º turno;1
-Sabrina Leal;22;F;Dr. Barros;1º turno;0
-Henrique Moura;34;M;Dra. Almeida;1º turno;0
-Jéssica Lopes;29;F;Dr. Costa;1º turno;1
-Matheus Nascimento;18;M;Dra. Martins;1º turno;0
-Elisa Cunha;76;F;Dr. Oliveira;1º turno;0
-Guilherme Araújo;39;M;Dr. Barros;1º turno;1
-Renata Brito;24;F;Dra. Almeida;1º turno;0
-Wellington Sales;52;M;Dr. Costa;1º turno;0
-Paula Bastos;35;F;Dra. Martins;1º turno;1
-Emerson Guimarães;66;M;Dr. Oliveira;1º turno;0
-Alessandra Prado;31;F;Dr. Barros;1º turno;0
-Vinícius Assis;45;M;Dra. Almeida;1º turno;1
-Cristiane Macedo;58;F;Dr. Costa;1º turno;0
-Leandro Reis;41;M;Dra. Martins;1º turno;0
-Adriana Martins;28;F;Dr. Oliveira;1º turno;1
-Robson Barros;37;M;Dr. Barros;1º turno;0
-Michele Souza;26;F;Dra. Almeida;1º turno;1
-Everton Ribeiro;49;M;Dr. Costa;1º turno;0
-Natália Moura;33;F;Dra. Martins;1º turno;0
-Douglas Fernandes;56;M;Dr. Oliveira;1º turno;1
-Lívia Cardoso;20;F;Dr. Barros;1º turno;0
-Renato Silveira;44;M;Dra. Almeida;1º turno;0
-Amanda Costa;27;F;Dr. Costa;1º turno;1
-Pedro Martins;60;M;Dra. Martins;1º turno;0
-Cláudia Moreira;68;F;Dr. Oliveira;1º turno;0
-Murilo Rocha;23;M;Dr. Barros;1º turno;1
-Thaís Ferreira;36;F;Dra. Almeida;1º turno;0
-Alan Dias;43;M;Dr. Costa;1º turno;0
-Ingrid Nunes;25;F;Dra. Martins;1º turno;1
-Samuel Melo;54;M;Dr. Oliveira;1º turno;0
-Luciana Pereira;40;F;Dr. Barros;1º turno;0
-Caio Duarte;13;M;Dra. Almeida;1º turno;1
-Tainá Campos;30;F;Dr. Costa;1º turno;0
-Diego Sales;49;M;Dra. Martins;1º turno;0
-Érica Lima;34;F;Dr. Oliveira;1º turno;1
-Ítalo Andrade;46;M;Dr. Barros;1º turno;0
-Daiane Tavares;29;F;Dra. Almeida;1º turno;1
-Vitor Pacheco;63;M;Dr. Costa;1º turno;0
-Bruna Alves;19;F;Dra. Martins;1º turno;0
-Raul Oliveira;71;M;Dr. Oliveira;1º turno;1
-Gisele Braga;22;F;Dr. Barros;1º turno;0
-Danilo Batista;52;M;Dra. Almeida;1º turno;0
-Heloísa Monteiro;35;F;Dr. Costa;1º turno;1
-Jorge Mendes;70;M;Dra. Martins;1º turno;0
-Lorena Campos;32;F;Dr. Oliveira;1º turno;0
-Fábio Ribeiro;44;M;Dr. Barros;1º turno;1
-Letícia Moura;26;F;Dra. Almeida;1º turno;0
-Cássio Barros;59;M;Dr. Costa;1º turno;0
-Priscila Nogueira;37;F;Dra. Martins;1º turno;1
-Sérgio Almeida;61;M;Dr. Oliveira;1º turno;0
-Melissa Prado;20;F;Dr. Barros;2º turno;0
-Alex Teixeira;47;M;Dra. Almeida;2º turno;1
-Carla Cunha;33;F;Dr. Costa;2º turno;0
-Márcio Ramos;56;M;Dra. Martins;2º turno;0
-Vivian Cardoso;28;F;Dr. Oliveira;2º turno;1
-Alan Costa;45;M;Dr. Barros;2º turno;0
-Aline Antunes;19;F;Dra. Almeida;2º turno;1
-Jonathan Assis;50;M;Dr. Costa;2º turno;0
-Yasmin Macedo;16;F;Dra. Martins;2º turno;0
-Lucas Freitas;23;M;Dr. Oliveira;2º turno;1
-Viviane Rocha;29;F;Dr. Barros;2º turno;0
-Roberta Leal;41;F;Dra. Almeida;2º turno;0
-Leonardo Bastos;55;M;Dr. Costa;2º turno;1
-Rafael Tavares;38;M;Dra. Martins;2º turno;0
-Cristiane Sales;34;F;Dr. Oliveira;2º turno;0
-Mateus Guimarães;18;M;Dr. Barros;2º turno;1
-Sônia Monteiro;66;F;Dra. Almeida;2º turno;0
-José Antônio;79;M;Dr. Costa;2º turno;0
-Elisângela Nogueira;35;F;Dra. Martins;2º turno;1
-Wagner Lima;43;M;Dr. Oliveira;2º turno;0
-Cíntia Ferreira;65;F;Dr. Barros;2º turno;0
-Andréa Duarte;25;M;Dra. Almeida;2º turno;1
-Alexandre Costa;30;F;Dr. Costa;2º turno;0
-Denise Figueiredo;12;M;Dra. Martins;2º turno;0
-Michel Souza;33;F;Dr. Oliveira;2º turno;1
-Tatiane Andrade;67;M;Dr. Barros;2º turno;0
-Ícaro Ramos;47;F;Dra. Almeida;2º turno;1
-Flávia Lopes;38;M;Dr. Costa;2º turno;0
-André Tavares;55;F;Dra. Martins;2º turno;0
-Patrícia Dias;22;M;Dr. Oliveira;2º turno;1
-Diogo Pires;39;F;Dr. Barros;2º turno;0
-Suelen Martins;41;M;Dra. Almeida;2º turno;0
-Maurício Almeida;19;F;Dr. Costa;2º turno;1
-Vitória Moreira;44;M;Dra. Martins;2º turno;0
-Antônio Carlos;63;F;Dr. Oliveira;2º turno;0
-Mariana Bastos;18;M;Dr. Barros;2º turno;1
-Wellington Teixeira;58;F;Dra. Almeida;2º turno;0
-Laís Rocha;53;M;Dr. Costa;2º turno;0
-Júnior Barros;60;F;Dra. Martins;2º turno;1
-Simone Prado;26;M;Dr. Oliveira;2º turno;0
-Eduardo Pacheco;36;F;Dr. Barros;2º turno;0
-Gabriela Cardoso;42;M;Dra. Almeida;2º turno;1
-Fábio Nogueira;13;F;Dr. Costa;2º turno;0
-Karol Monteiro;35;M;Dra. Martins;2º turno;0
-Fernando Leal;20;F;Dr. Oliveira;2º turno;1
-Rebeca Lima;54;M;Dr. Barros;2º turno;0
-Igor Batista;73;F;Dra. Almeida;2º turno;1
-Elaine Martins;21;M;Dr. Costa;2º turno;0
-Breno Sales;62;F;Dra. Martins;2º turno;0
-Talita Andrade;41;M;Dr. Oliveira;2º turno;1
-Bruno Silveira;65;F;Dr. Barros;2º turno;0
-Camila Antunes;57;M;Dra. Almeida;2º turno;0
-Jefferson Ramos;29;F;Dr. Costa;2º turno;1
-Raquel Tavares;26;M;Dra. Martins;2º turno;0
-Davi Figueiredo;45;F;Dr. Oliveira;2º turno;0
-Mônica Cunha;68;M;Dr. Barros;2º turno;1
-Cléber Assis;24;F;Dra. Almeida;2º turno;0
-Débora Pires;49;M;Dr. Costa;2º turno;0
-Renato Almeida;37;F;Dra. Martins;2º turno;1
-Joana Freitas;18;M;Dr. Oliveira;2º turno;0
-Luan Moura;46;F;Dr. Barros;2º turno;0
-Isadora Bastos;66;M;Dra. Almeida;2º turno;1
-Sérgio Ribeiro;25;F;Dr. Costa;2º turno;0
-Cássia Leal;51;M;Dra. Martins;2º turno;0
-Douglas Martins;63;F;Dr. Oliveira;2º turno;1
-Júlia Lopes;40;M;Dr. Barros;2º turno;0
-Emerson Cardoso;30;F;Dra. Almeida;2º turno;1
-Geovana Sales;74;M;Dr. Costa;2º turno;0
-Robson Lima;14;F;Dra. Martins;2º turno;0
-Larissa Monteiro;39;M;Dr. Oliveira;2º turno;1
-Luciano Barros;20;F;Dr. Barros;ADM;0
-Paloma Teixeira;48;M;Dra. Almeida;ADM;0
-Daniel Nogueira;57;F;Dr. Costa;ADM;1
-Mirela Costa;38;M;Dra. Martins;ADM;0
-Rafael Brito;19;F;Dr. Oliveira;ADM;0
-Clarissa Andrade;67;M;Dr. Barros;ADM;1
-Leandro Dias;33;F;Dra. Almeida;ADM;0
-Tamires Pacheco;22;M;Dr. Costa;ADM;0
-Maurício Rocha;79;F;Dra. Martins;ADM;1
-Paula Antunes;53;M;Dr. Oliveira;ADM;0
-Caio Figueiredo;16;F;Dr. Barros;ADM;0
-Michele Souza;62;M;Dra. Almeida;ADM;1
-Vinícius Duarte;18;F;Dr. Costa;ADM;0
-Ana Clara Cardoso;54;M;Dra. Martins;ADM;0
-Rodrigo Silva;36;F;Dr. Oliveira;ADM;1
-Lorena Bastos;49;M;Dr. Barros;ADM;0
-Felipe Macedo;11;F;Dra. Almeida;ADM;1
-Carolina Almeida;60;M;Dr. Costa;ADM;0
-Jorge Mendes;43;F;Dra. Martins;ADM;0
-Bianca Moreira;51;M;Dr. Oliveira;ADM;1
-Otávio Ramos;33;F;Dr. Barros;ADM;0
-Laila Andrade;28;M;Dra. Almeida;ADM;0
-Edson Tavares;55;F;Dr. Costa;ADM;1
-Fabiana Prado;22;M;Dra. Martins;ADM;0
-Vagner Lopes;48;F;Dr. Oliveira;ADM;0
-Natália Figueiredo;77;M;Dr. Barros;ADM;1
-João Victor Freitas;65;F;Dra. Almeida;ADM;0
-Elisângela Guimarães;66;M;Dr. Costa;ADM;0
-Samuel Costa;24;F;Dra. Martins;ADM;1
-Thalita Cardoso;41;M;Dr. Oliveira;ADM;0
-Fábio Rocha;19;F;Dr. Barros;ADM;0
-Heloísa Mendes;29;M;Dra. Almeida;ADM;1
-Wallace Nogueira;57;F;Dr. Costa;ADM;0
-Luciana Sales;72;M;Dra. Martins;ADM;0
-Dênis Bastos;13;F;Dr. Oliveira;ADM;1
-Mônica Figueiredo;70;M;Dr. Barros;ADM;0
-André Silva;34;F;Dra. Almeida;ADM;1
-Sâmia Almeida;60;M;Dr. Costa;ADM;0
-Renato Cardoso;47;F;Dra. Martins;ADM;0
-Laiane Moreira;38;M;Dr. Oliveira;ADM;1
-Ítalo Mendes;54;F;Dr. Barros;ADM;0
-Viviane Tavares;62;M;Dra. Almeida;ADM;0
-Márcio Rocha;23;F;Dr. Costa;ADM;1
-Gabriela Nogueira;33;M;Dra. Martins;ADM;0
-Robson Guimarães;14;F;Dr. Oliveira;ADM;0
-Fernanda Antunes;36;M;Dr. Barros;ADM;1
-Everton Teixeira;53;F;Dra. Almeida;ADM;0
-Sabrina Ramos;66;M;Dr. Costa;ADM;0
-Rafael Cunha;25;F;Dra. Martins;ADM;1
-Bruna Silveira;79;M;Dr. Oliveira;ADM;0
+Nome;Idade;Genero;Médico;Turno;Atestado;Síndrome Respiratória
+Ana da Silva;34;F;Dr. Barros;1º turno;0;0
+Carlos Mendes;56;M;Dra. Almeida;1º turno;1;1
+Fernanda Rocha;28;F;Dr. Costa;1º turno;0;0
+João Batista;71;M;Dra. Martins;1º turno;0;0
+Patrícia Oliveira;22;F;Dr. Oliveira;1º turno;1;1
+Felipe Souza;42;M;Dr. Barros;1º turno;0;0
+Larissa Martins;18;F;Dra. Almeida;1º turno;1;1
+Rafael Lima;65;M;Dr. Costa;1º turno;0;0
+Camila Duarte;33;F;Dra. Martins;1º turno;0;0
+Marcos Ferreira;48;M;Dr. Oliveira;1º turno;1;1
+Juliana Gomes;37;F;Dr. Barros;1º turno;0;0
+Bruno Cardoso;50;M;Dra. Almeida;1º turno;0;0
+Vanessa Moreira;25;F;Dr. Costa;1º turno;1;1
+Lucas Pires;19;M;Dra. Martins;1º turno;0;0
+Aline Andrade;41;F;Dr. Oliveira;1º turno;0;0
+Daniel Ribeiro;29;M;Dr. Barros;1º turno;1;1
+Beatriz Monteiro;21;F;Dra. Almeida;1º turno;0;0
+Gabriel Barros;12;M;Dr. Costa;1º turno;0;0
+Isabela Ramos;64;F;Dra. Martins;1º turno;1;1
+Rodrigo Nogueira;38;M;Dr. Oliveira;1º turno;0;0
+Mariana Teixeira;32;F;Dr. Barros;1º turno;0;0
+Thiago Almeida;43;M;Dra. Almeida;1º turno;1;1
+Paula Freitas;27;F;Dr. Costa;1º turno;0;0
+Gustavo Antunes;59;M;Dra. Martins;1º turno;0;0
+Bianca Figueiredo;36;F;Dr. Oliveira;1º turno;1;1
+André Castro;61;M;Dr. Barros;1º turno;0;0
+Tatiane Melo;40;F;Dra. Almeida;1º turno;1;1
+Leonardo Carvalho;53;M;Dr. Costa;1º turno;0;0
+Karina Costa;30;F;Dra. Martins;1º turno;0;0
+Eduardo Tavares;47;M;Dr. Oliveira;1º turno;1;1
+Sabrina Leal;22;F;Dr. Barros;1º turno;0;0
+Henrique Moura;34;M;Dra. Almeida;1º turno;0;0
+Jéssica Lopes;29;F;Dr. Costa;1º turno;1;1
+Matheus Nascimento;18;M;Dra. Martins;1º turno;0;0
+Elisa Cunha;76;F;Dr. Oliveira;1º turno;0;0
+Guilherme Araújo;39;M;Dr. Barros;1º turno;1;1
+Renata Brito;24;F;Dra. Almeida;1º turno;0;0
+Wellington Sales;52;M;Dr. Costa;1º turno;0;0
+Paula Bastos;35;F;Dra. Martins;1º turno;1;1
+Emerson Guimarães;66;M;Dr. Oliveira;1º turno;0;0
+Alessandra Prado;31;F;Dr. Barros;1º turno;0;0
+Vinícius Assis;45;M;Dra. Almeida;1º turno;1;1
+Cristiane Macedo;58;F;Dr. Costa;1º turno;0;0
+Leandro Reis;41;M;Dra. Martins;1º turno;0;0
+Adriana Martins;28;F;Dr. Oliveira;1º turno;1;1
+Robson Barros;37;M;Dr. Barros;1º turno;0;0
+Michele Souza;26;F;Dra. Almeida;1º turno;1;1
+Everton Ribeiro;49;M;Dr. Costa;1º turno;0;0
+Natália Moura;33;F;Dra. Martins;1º turno;0;0
+Douglas Fernandes;56;M;Dr. Oliveira;1º turno;1;1
+Lívia Cardoso;20;F;Dr. Barros;1º turno;0;0
+Renato Silveira;44;M;Dra. Almeida;1º turno;0;0
+Amanda Costa;27;F;Dr. Costa;1º turno;1;1
+Pedro Martins;60;M;Dra. Martins;1º turno;0;0
+Cláudia Moreira;68;F;Dr. Oliveira;1º turno;0;0
+Murilo Rocha;23;M;Dr. Barros;1º turno;1;1
+Thaís Ferreira;36;F;Dra. Almeida;1º turno;0;0
+Alan Dias;43;M;Dr. Costa;1º turno;0;0
+Ingrid Nunes;25;F;Dra. Martins;1º turno;1;1
+Samuel Melo;54;M;Dr. Oliveira;1º turno;0;0
+Luciana Pereira;40;F;Dr. Barros;1º turno;0;0
+Caio Duarte;13;M;Dra. Almeida;1º turno;1;1
+Tainá Campos;30;F;Dr. Costa;1º turno;0;0
+Diego Sales;49;M;Dra. Martins;1º turno;0;0
+Érica Lima;34;F;Dr. Oliveira;1º turno;1;1
+Ítalo Andrade;46;M;Dr. Barros;1º turno;0;0
+Daiane Tavares;29;F;Dra. Almeida;1º turno;1;1
+Vitor Pacheco;63;M;Dr. Costa;1º turno;0;0
+Bruna Alves;19;F;Dra. Martins;1º turno;0;0
+Raul Oliveira;71;M;Dr. Oliveira;1º turno;1;1
+Gisele Braga;22;F;Dr. Barros;1º turno;0;0
+Danilo Batista;52;M;Dra. Almeida;1º turno;0;0
+Heloísa Monteiro;35;F;Dr. Costa;1º turno;1;1
+Jorge Mendes;70;M;Dra. Martins;1º turno;0;0
+Lorena Campos;32;F;Dr. Oliveira;1º turno;0;0
+Fábio Ribeiro;44;M;Dr. Barros;1º turno;1;1
+Letícia Moura;26;F;Dra. Almeida;1º turno;0;0
+Cássio Barros;59;M;Dr. Costa;1º turno;0;0
+Priscila Nogueira;37;F;Dra. Martins;1º turno;1;1
+Sérgio Almeida;61;M;Dr. Oliveira;1º turno;0;0
+Melissa Prado;20;F;Dr. Barros;2º turno;0;0
+Alex Teixeira;47;M;Dra. Almeida;2º turno;1;1
+Carla Cunha;33;F;Dr. Costa;2º turno;0;0
+Márcio Ramos;56;M;Dra. Martins;2º turno;0;0
+Vivian Cardoso;28;F;Dr. Oliveira;2º turno;1;1
+Alan Costa;45;M;Dr. Barros;2º turno;0;0
+Aline Antunes;19;F;Dra. Almeida;2º turno;1;1
+Jonathan Assis;50;M;Dr. Costa;2º turno;0;0
+Yasmin Macedo;16;F;Dra. Martins;2º turno;0;0
+Lucas Freitas;23;M;Dr. Oliveira;2º turno;1;1
+Viviane Rocha;29;F;Dr. Barros;2º turno;0;0
+Roberta Leal;41;F;Dra. Almeida;2º turno;0;0
+Leonardo Bastos;55;M;Dr. Costa;2º turno;1;1
+Rafael Tavares;38;M;Dra. Martins;2º turno;0;0
+Cristiane Sales;34;F;Dr. Oliveira;2º turno;0;0
+Mateus Guimarães;18;M;Dr. Barros;2º turno;1;1
+Sônia Monteiro;66;F;Dra. Almeida;2º turno;0;0
+José Antônio;79;M;Dr. Costa;2º turno;0;0
+Elisângela Nogueira;35;F;Dra. Martins;2º turno;1;1
+Wagner Lima;43;M;Dr. Oliveira;2º turno;0;0
+Cíntia Ferreira;65;F;Dr. Barros;2º turno;0;0
+Andréa Duarte;25;M;Dra. Almeida;2º turno;1;1
+Alexandre Costa;30;F;Dr. Costa;2º turno;0;0
+Denise Figueiredo;12;M;Dra. Martins;2º turno;0;0
+Michel Souza;33;F;Dr. Oliveira;2º turno;1;1
+Tatiane Andrade;67;M;Dr. Barros;2º turno;0;0
+Ícaro Ramos;47;F;Dra. Almeida;2º turno;1;1
+Flávia Lopes;38;M;Dr. Costa;2º turno;0;0
+André Tavares;55;F;Dra. Martins;2º turno;0;0
+Patrícia Dias;22;M;Dr. Oliveira;2º turno;1;1
+Diogo Pires;39;F;Dr. Barros;2º turno;0;0
+Suelen Martins;41;M;Dra. Almeida;2º turno;0;0
+Maurício Almeida;19;F;Dr. Costa;2º turno;1;1
+Vitória Moreira;44;M;Dra. Martins;2º turno;0;0
+Antônio Carlos;63;F;Dr. Oliveira;2º turno;0;0
+Mariana Bastos;18;M;Dr. Barros;2º turno;1;1
+Wellington Teixeira;58;F;Dra. Almeida;2º turno;0;0
+Laís Rocha;53;M;Dr. Costa;2º turno;0;0
+Júnior Barros;60;F;Dra. Martins;2º turno;1;1
+Simone Prado;26;M;Dr. Oliveira;2º turno;0;0
+Eduardo Pacheco;36;F;Dr. Barros;2º turno;0;0
+Gabriela Cardoso;42;M;Dra. Almeida;2º turno;1;1
+Fábio Nogueira;13;F;Dr. Costa;2º turno;0;0
+Karol Monteiro;35;M;Dra. Martins;2º turno;0;0
+Fernando Leal;20;F;Dr. Oliveira;2º turno;1;1
+Rebeca Lima;54;M;Dr. Barros;2º turno;0;0
+Igor Batista;73;F;Dra. Almeida;2º turno;1;1
+Elaine Martins;21;M;Dr. Costa;2º turno;0;0
+Breno Sales;62;F;Dra. Martins;2º turno;0;0
+Talita Andrade;41;M;Dr. Oliveira;2º turno;1;1
+Bruno Silveira;65;F;Dr. Barros;2º turno;0;0
+Camila Antunes;57;M;Dra. Almeida;2º turno;0;0
+Jefferson Ramos;29;F;Dr. Costa;2º turno;1;1
+Raquel Tavares;26;M;Dra. Martins;2º turno;0;0
+Davi Figueiredo;45;F;Dr. Oliveira;2º turno;0;0
+Mônica Cunha;68;M;Dr. Barros;2º turno;1;1
+Cléber Assis;24;F;Dra. Almeida;2º turno;0;0
+Débora Pires;49;M;Dr. Costa;2º turno;0;0
+Renato Almeida;37;F;Dra. Martins;2º turno;1;1
+Joana Freitas;18;M;Dr. Oliveira;2º turno;0;0
+Luan Moura;46;F;Dr. Barros;2º turno;0;0
+Isadora Bastos;66;M;Dra. Almeida;2º turno;1;1
+Sérgio Ribeiro;25;F;Dr. Costa;2º turno;0;0
+Cássia Leal;51;M;Dra. Martins;2º turno;0;0
+Douglas Martins;63;F;Dr. Oliveira;2º turno;1;1
+Júlia Lopes;40;M;Dr. Barros;2º turno;0;0
+Emerson Cardoso;30;F;Dra. Almeida;2º turno;1;1
+Geovana Sales;74;M;Dr. Costa;2º turno;0;0
+Robson Lima;14;F;Dra. Martins;2º turno;0;0
+Larissa Monteiro;39;M;Dr. Oliveira;2º turno;1;1
+Luciano Barros;20;F;Dr. Barros;ADM;0;0
+Paloma Teixeira;48;M;Dra. Almeida;ADM;0;0
+Daniel Nogueira;57;F;Dr. Costa;ADM;1;1
+Mirela Costa;38;M;Dra. Martins;ADM;0;0
+Rafael Brito;19;F;Dr. Oliveira;ADM;0;0
+Clarissa Andrade;67;M;Dr. Barros;ADM;1;1
+Leandro Dias;33;F;Dra. Almeida;ADM;0;0
+Tamires Pacheco;22;M;Dr. Costa;ADM;0;0
+Maurício Rocha;79;F;Dra. Martins;ADM;1;1
+Paula Antunes;53;M;Dr. Oliveira;ADM;0;0
+Caio Figueiredo;16;F;Dr. Barros;ADM;0;0
+Michele Souza;62;M;Dra. Almeida;ADM;1;1
+Vinícius Duarte;18;F;Dr. Costa;ADM;0;0
+Ana Clara Cardoso;54;M;Dra. Martins;ADM;0;0
+Rodrigo Silva;36;F;Dr. Oliveira;ADM;1;1
+Lorena Bastos;49;M;Dr. Barros;ADM;0;0
+Felipe Macedo;11;F;Dra. Almeida;ADM;1;1
+Carolina Almeida;60;M;Dr. Costa;ADM;0;0
+Jorge Mendes;43;F;Dra. Martins;ADM;0;0
+Bianca Moreira;51;M;Dr. Oliveira;ADM;1;1
+Otávio Ramos;33;F;Dr. Barros;ADM;0;0
+Laila Andrade;28;M;Dra. Almeida;ADM;0;0
+Edson Tavares;55;F;Dr. Costa;ADM;1;1
+Fabiana Prado;22;M;Dra. Martins;ADM;0;0
+Vagner Lopes;48;F;Dr. Oliveira;ADM;0;0
+Natália Figueiredo;77;M;Dr. Barros;ADM;1;1
+João Victor Freitas;65;F;Dra. Almeida;ADM;0;0
+Elisângela Guimarães;66;M;Dr. Costa;ADM;0;0
+Samuel Costa;24;F;Dra. Martins;ADM;1;1
+Thalita Cardoso;41;M;Dr. Oliveira;ADM;0;0
+Fábio Rocha;19;F;Dr. Barros;ADM;0;0
+Heloísa Mendes;29;M;Dra. Almeida;ADM;1;1
+Wallace Nogueira;57;F;Dr. Costa;ADM;0;0
+Luciana Sales;72;M;Dra. Martins;ADM;0;0
+Dênis Bastos;13;F;Dr. Oliveira;ADM;1;1
+Mônica Figueiredo;70;M;Dr. Barros;ADM;0;0
+André Silva;34;F;Dra. Almeida;ADM;1;1
+Sâmia Almeida;60;M;Dr. Costa;ADM;0;0
+Renato Cardoso;47;F;Dra. Martins;ADM;0;0
+Laiane Moreira;38;M;Dr. Oliveira;ADM;1;1
+Ítalo Mendes;54;F;Dr. Barros;ADM;0;0
+Viviane Tavares;62;M;Dra. Almeida;ADM;0;0
+Márcio Rocha;23;F;Dr. Costa;ADM;1;1
+Gabriela Nogueira;33;M;Dra. Martins;ADM;0;0
+Robson Guimarães;14;F;Dr. Oliveira;ADM;0;0
+Fernanda Antunes;36;M;Dr. Barros;ADM;1;1
+Everton Teixeira;53;F;Dra. Almeida;ADM;0;0
+Sabrina Ramos;66;M;Dr. Costa;ADM;0;0
+Rafael Cunha;25;F;Dra. Martins;ADM;1;1
+Bruna Silveira;79;M;Dr. Oliveira;ADM;0;0
