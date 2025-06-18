@@ -7,7 +7,7 @@ st.set_page_config(page_title="Dashboard Atendimento", layout="wide")
 
 @st.cache_data
 def carregar_dados():
-    return pd.read_csv("atendimentos.csv", sep=';', encoding_errors='ignore')
+    return pd.read_csv("atendimentos.csv", sep=';', encoding='ISO-8859-1')
 
 df = carregar_dados()
 
