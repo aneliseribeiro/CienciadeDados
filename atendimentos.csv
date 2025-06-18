@@ -1,4 +1,4 @@
-Nome,Idade,Gênero,Médico,Turno,Atestado
+Nome,Idade,Genero,Medico,Turno,Atestado
 Paciente 1,56,Feminino,Dra. Costa,ADM,1
 Paciente 2,69,Masculino,Dra. Oliveira,ADM,0
 Paciente 3,46,Masculino,Dr. Souza,1º Turno,0
