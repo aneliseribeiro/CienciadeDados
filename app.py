@@ -2,60 +2,68 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import plotly.express as px
 
-st.set_page_config(page_title="Painel de Pronto Atendimento", layout="wide")
+# Configuração da página
+st.set_page_config(page_title="Dashboard Atendimento", layout="wide")
 
-st.title("Painel de Dados - Pronto Atendimento Médico")
-
+# Carregar os dados
 @st.cache_data
 def carregar_dados():
     return pd.read_csv("atendimentos.csv")
 
-try:
-    dados = carregar_dados()
+df = carregar_dados()
 
-    st.subheader("Dados Carregados")
-    st.dataframe(dados)
+st.title("📊 Dashboard de Atendimento Médico")
 
+# Organizar layout com colunas
+col1, col2 = st.columns(2)
+
+with col1:
     st.subheader("Média de Idade dos Pacientes")
-    media_idade = dados["Idade"].mean()
-    st.write(f"Média de idade: {media_idade:.1f} anos")
+    media_idade = df["Idade"].mean()
+    st.metric(label="Média de Idade", value=f"{media_idade:.1f} anos")
 
-    fig, ax = plt.subplots()
-    sns.histplot(dados["Idade"], bins=10, kde=True, ax=ax)
-    ax.set_xlabel("Idade")
-    ax.set_ylabel("Número de Pacientes")
-    ax.set_title("Distribuição das Idades dos Pacientes")
-    st.pyplot(fig)
+with col2:
+    st.subheader("Quantidade de Atestados Médicos")
+    total_atestados = df[df["Atestado"] == "Sim"].shape[0]
+    st.metric(label="Atestados Emitidos", value=total_atestados)
 
-    st.subheader("Atendimentos por Médico")
-    fig2, ax2 = plt.subplots()
-    sns.countplot(y="Médico", data=dados, order=dados["Médico"].value_counts().index, ax=ax2)
-    ax2.set_xlabel("Número de Atendimentos")
-    ax2.set_ylabel("Médico")
-    st.pyplot(fig2)
+st.divider()
 
-    st.subheader("Atendimentos por Hora")
-    dados["Hora"] = pd.to_datetime(dados["Hora"], format="%H:%M").dt.hour
-    fig3, ax3 = plt.subplots()
-    sns.histplot(dados["Hora"], bins=range(0, 25), ax=ax3)
-    ax3.set_xlabel("Hora do Atendimento")
-    ax3.set_ylabel("Número de Atendimentos")
-    st.pyplot(fig3)
+# Gráfico de atendimentos por médico
+st.subheader("Fluxo de Atendimento por Médico")
+fig1, ax1 = plt.subplots()
+sns.countplot(data=df, x="Medico", ax=ax1, palette="coolwarm")
+plt.xlabel("Médico")
+plt.ylabel("Quantidade de Atendimentos")
+st.pyplot(fig1)
 
-    st.subheader("Casos de Síndromes Respiratórias")
-    fig4, ax4 = plt.subplots()
-    sns.countplot(x="Síndrome_Respiratória", data=dados, ax=ax4)
-    ax4.set_xlabel("Síndrome Respiratória")
-    ax4.set_ylabel("Quantidade")
-    st.pyplot(fig4)
+# Gráfico de períodos de pico
+st.subheader("Período de Pico de Atendimentos")
+fig2, ax2 = plt.subplots()
+sns.countplot(data=df, x="Horario", order=df["Horario"].value_counts().index, ax=ax2, palette="viridis")
+plt.xlabel("Horário")
+plt.ylabel("Atendimentos")
+st.pyplot(fig2)
 
-    st.subheader("Atestados Médicos Emitidos")
-    fig5, ax5 = plt.subplots()
-    sns.countplot(x="Atestado", data=dados, ax=ax5)
-    ax5.set_xlabel("Atestado Médico")
-    ax5.set_ylabel("Quantidade")
-    st.pyplot(fig5)
+# Gráfico de Síndromes Respiratórias
+st.subheader("Casos de Síndromes Respiratórias")
+respiratorio_df = df[df["Diagnostico"] == "Síndrome Respiratória"]
+fig3, ax3 = plt.subplots()
+sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
+plt.xlabel("Idade")
+plt.ylabel("Quantidade de Casos")
+st.pyplot(fig3)
 
-except Exception as e:
-    st.error(f"Ocorreu um erro ao carregar ou processar os dados: {e}")
+# Exportação CSV
+st.divider()
+st.subheader("Exportar Dados Filtrados")
+csv = df.to_csv(index=False).encode('utf-8')
+st.download_button(
+    label="📥 Baixar CSV",
+    data=csv,
+    file_name='atendimentos_export.csv',
+    mime='text/csv',
+)
+
