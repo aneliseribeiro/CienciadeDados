@@ -3,62 +3,82 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Configuração da página
 st.set_page_config(page_title="Dashboard Atendimento", layout="wide")
 
-# Função para carregar dados com cache para evitar recarregamento constante
 @st.cache_data
 def carregar_dados():
     return pd.read_csv("atendimentos.csv")
 
 df = carregar_dados()
 
+# Mostrar colunas para debug (pode remover depois)
+st.write("Colunas do DataFrame:", df.columns.tolist())
+
 st.title("📊 Dashboard de Atendimento Médico")
 
-# Organizar layout com duas colunas
-col1, col2 = st.columns(2)
+# Calcular métricas
+media_idade = df["Idade"].mean()
+total_atestados = df[df["Atestado"] == 1].shape[0]
 
-with col1:
-    st.subheader("Média de Idade dos Pacientes")
-    media_idade = df["Idade"].mean()
-    st.metric(label="Média de Idade", value=f"{media_idade:.1f} anos")
-
-with col2:
-    st.subheader("Quantidade de Atestados Médicos")
-    total_atestados = df[df["Atestado"] == 1].shape[0]
-    st.metric(label="Atestados Emitidos", value=total_atestados)
+# Layout com métricas no topo em 2 colunas
+col_metric1, col_metric2 = st.columns(2)
+col_metric1.metric("Média de Idade", f"{media_idade:.1f} anos")
+col_metric2.metric("Atestados Emitidos", total_atestados)
 
 st.divider()
 
-# Gráfico de atendimentos por médico
-st.subheader("Fluxo de Atendimento por Médico")
-fig1, ax1 = plt.subplots()
-sns.countplot(data=df, x="Médico", ax=ax1, palette="coolwarm")
-plt.xlabel("Médico")
-plt.ylabel("Quantidade de Atendimentos")
-st.pyplot(fig1)
+# Criar grade 2x2 para gráficos pequenos
+row1_col1, row1_col2 = st.columns(2)
+row2_col1, row2_col2 = st.columns(2)
 
-# Gráfico de períodos de pico (usando a coluna Turno)
-st.subheader("Período de Pico de Atendimentos")
-fig2, ax2 = plt.subplots()
-sns.countplot(data=df, x="Turno", order=df["Turno"].value_counts().index, ax=ax2, palette="viridis")
-plt.xlabel("Turno")
-plt.ylabel("Atendimentos")
-st.pyplot(fig2)
+with row1_col1:
+    st.subheader("Atendimentos por Médico")
+    fig1, ax1 = plt.subplots(figsize=(4,3))
+    sns.countplot(data=df, x="Médico", ax=ax1, palette="coolwarm")
+    ax1.set_xlabel("Médico")
+    ax1.set_ylabel("Atendimentos")
+    plt.xticks(rotation=45)
+    st.pyplot(fig1)
 
-# Gráfico de Síndromes Respiratórias (filtrando onde a coluna tem valor 1)
-st.subheader("Casos de Síndromes Respiratórias")
-respiratorio_df = df[df["Síndrome Respiratória"] == 1]
-fig3, ax3 = plt.subplots()
-sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
-plt.xlabel("Idade")
-plt.ylabel("Quantidade de Casos")
-st.pyplot(fig3)
+with row1_col2:
+    st.subheader("Atendimentos por Turno")
+    if "Turno" in df.columns:
+        ordem_turno = df["Turno"].value_counts().index
+        fig2, ax2 = plt.subplots(figsize=(4,3))
+        sns.countplot(data=df, x="Turno", order=ordem_turno, ax=ax2, palette="viridis")
+        ax2.set_xlabel("Turno")
+        ax2.set_ylabel("Atendimentos")
+        st.pyplot(fig2)
+    else:
+        st.warning("Coluna 'Turno' não encontrada no arquivo CSV.")
+
+with row2_col1:
+    st.subheader("Casos de Síndromes Respiratórias por Idade")
+    if "Síndrome Respiratória" in df.columns:
+        respiratorio_df = df[df["Síndrome Respiratória"] == 1]
+        fig3, ax3 = plt.subplots(figsize=(4,3))
+        sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
+        ax3.set_xlabel("Idade")
+        ax3.set_ylabel("Casos")
+        st.pyplot(fig3)
+    else:
+        st.warning("Coluna 'Síndrome Respiratória' não encontrada no arquivo CSV.")
+
+with row2_col2:
+    st.subheader("Distribuição de Gênero")
+    if "Genero" in df.columns:
+        fig4, ax4 = plt.subplots(figsize=(4,3))
+        sns.countplot(data=df, x="Genero", ax=ax4, palette="pastel")
+        ax4.set_xlabel("Gênero")
+        ax4.set_ylabel("Quantidade")
+        st.pyplot(fig4)
+    else:
+        st.warning("Coluna 'Genero' não encontrada no arquivo CSV.")
 
 st.divider()
 
-# Exportar CSV dos dados
-st.subheader("Exportar Dados Filtrados")
+# Botão para exportar CSV
+st.subheader("Exportar Dados")
 csv = df.to_csv(index=False).encode('utf-8')
 st.download_button(
     label="📥 Baixar CSV",
