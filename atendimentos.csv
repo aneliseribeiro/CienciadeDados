@@ -1,4 +1,4 @@
-Nome;Idade;Genero;Médico;Turno;Atestado;Síndrome Respiratória
+Nome;Idade;Gênero;Médico;Turno;Atestado;Síndrome_Respiratória
 Ana da Silva;34;F;Dr. Barros;1º turno;0;0
 Carlos Mendes;56;M;Dra. Almeida;1º turno;1;1
 Fernanda Rocha;28;F;Dr. Costa;1º turno;0;0
