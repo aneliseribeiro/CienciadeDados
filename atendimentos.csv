@@ -1,201 +1,201 @@
-Nome,Idade,Genero,Medico,Turno,Atestado
-Paciente 1,56,Feminino,Dra. Costa,ADM,1
-Paciente 2,69,Masculino,Dra. Oliveira,ADM,0
-Paciente 3,46,Masculino,Dr. Souza,1Âº Turno,0
-Paciente 4,32,Masculino,Dra. Costa,2Âº Turno,0
-Paciente 5,60,Masculino,Dra. Oliveira,ADM,0
-Paciente 6,25,Masculino,Dr. Silva,2Âº Turno,1
-Paciente 7,78,Masculino,Dr. Souza,2Âº Turno,1
-Paciente 8,38,Masculino,Dr. Silva,3Âº Turno,0
-Paciente 9,56,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 10,75,Masculino,Dra. Oliveira,ADM,0
-Paciente 11,36,Feminino,Dra. Costa,3Âº Turno,1
-Paciente 12,40,Masculino,Dra. Oliveira,3Âº Turno,0
-Paciente 13,28,Masculino,Dra. Oliveira,ADM,0
-Paciente 14,28,Masculino,Dra. Oliveira,2Âº Turno,1
-Paciente 15,41,Feminino,Dra. Oliveira,3Âº Turno,1
-Paciente 16,70,Feminino,Dr. Souza,2Âº Turno,0
-Paciente 17,53,Feminino,Dra. Costa,1Âº Turno,1
-Paciente 18,57,Feminino,Dr. Silva,2Âº Turno,1
-Paciente 19,41,Masculino,Dr. Silva,1Âº Turno,0
-Paciente 20,20,Feminino,Dra. Costa,2Âº Turno,1
-Paciente 21,39,Masculino,Dr. Silva,3Âº Turno,0
-Paciente 22,70,Masculino,Dra. Costa,3Âº Turno,1
-Paciente 23,19,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 24,41,Feminino,Dra. Oliveira,ADM,0
-Paciente 25,61,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 26,47,Feminino,Dra. Costa,1Âº Turno,1
-Paciente 27,55,Feminino,Dra. Costa,2Âº Turno,0
-Paciente 28,19,Feminino,Dra. Costa,2Âº Turno,1
-Paciente 29,77,Feminino,Dra. Costa,1Âº Turno,0
-Paciente 30,38,Feminino,Dra. Costa,3Âº Turno,0
-Paciente 31,50,Masculino,Dr. Souza,2Âº Turno,1
-Paciente 32,29,Feminino,Dr. Souza,ADM,0
-Paciente 33,75,Feminino,Dr. Silva,2Âº Turno,0
-Paciente 34,39,Masculino,Dra. Costa,2Âº Turno,1
-Paciente 35,78,Feminino,Dr. Silva,ADM,0
-Paciente 36,61,Masculino,Dra. Costa,1Âº Turno,0
-Paciente 37,42,Masculino,Dra. Costa,ADM,0
-Paciente 38,66,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 39,44,Masculino,Dr. Souza,1Âº Turno,1
-Paciente 40,76,Masculino,Dra. Oliveira,1Âº Turno,1
-Paciente 41,59,Masculino,Dr. Souza,ADM,0
-Paciente 42,45,Masculino,Dra. Oliveira,1Âº Turno,1
-Paciente 43,77,Feminino,Dra. Oliveira,3Âº Turno,0
-Paciente 44,33,Masculino,Dra. Oliveira,ADM,1
-Paciente 45,32,Feminino,Dra. Oliveira,3Âº Turno,0
-Paciente 46,79,Masculino,Dra. Oliveira,1Âº Turno,0
-Paciente 47,79,Masculino,Dr. Silva,2Âº Turno,0
-Paciente 48,64,Masculino,Dr. Souza,1Âº Turno,0
-Paciente 49,79,Masculino,Dra. Oliveira,3Âº Turno,0
-Paciente 50,68,Feminino,Dra. Costa,3Âº Turno,0
-Paciente 51,61,Feminino,Dr. Souza,ADM,1
-Paciente 52,72,Masculino,Dr. Souza,2Âº Turno,0
-Paciente 53,69,Masculino,Dra. Oliveira,ADM,1
-Paciente 54,74,Feminino,Dr. Silva,3Âº Turno,0
-Paciente 55,20,Masculino,Dra. Oliveira,1Âº Turno,1
-Paciente 56,54,Masculino,Dr. Silva,2Âº Turno,1
-Paciente 57,68,Masculino,Dra. Costa,1Âº Turno,1
-Paciente 58,24,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 59,38,Feminino,Dra. Costa,2Âº Turno,0
-Paciente 60,26,Feminino,Dr. Silva,ADM,1
-Paciente 61,56,Masculino,Dr. Silva,1Âº Turno,0
-Paciente 62,35,Masculino,Dra. Costa,3Âº Turno,1
-Paciente 63,21,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 64,42,Feminino,Dra. Costa,2Âº Turno,1
-Paciente 65,77,Feminino,Dr. Souza,2Âº Turno,1
-Paciente 66,31,Feminino,Dra. Costa,2Âº Turno,0
-Paciente 67,67,Masculino,Dr. Souza,ADM,1
-Paciente 68,75,Feminino,Dra. Costa,1Âº Turno,0
-Paciente 69,26,Masculino,Dr. Silva,ADM,1
-Paciente 70,43,Feminino,Dra. Costa,ADM,1
-Paciente 71,70,Masculino,Dr. Silva,2Âº Turno,0
-Paciente 72,19,Feminino,Dra. Costa,2Âº Turno,0
-Paciente 73,37,Feminino,Dra. Costa,ADM,0
-Paciente 74,45,Feminino,Dra. Oliveira,1Âº Turno,1
-Paciente 75,64,Feminino,Dr. Silva,3Âº Turno,0
-Paciente 76,77,Masculino,Dra. Oliveira,ADM,1
-Paciente 77,24,Feminino,Dr. Silva,1Âº Turno,1
-Paciente 78,61,Masculino,Dra. Oliveira,2Âº Turno,0
-Paciente 79,78,Masculino,Dr. Souza,2Âº Turno,0
-Paciente 80,25,Masculino,Dra. Costa,1Âº Turno,1
-Paciente 81,64,Masculino,Dr. Silva,3Âº Turno,1
-Paciente 82,52,Feminino,Dr. Silva,2Âº Turno,0
-Paciente 83,31,Masculino,Dra. Costa,2Âº Turno,0
-Paciente 84,34,Masculino,Dr. Silva,2Âº Turno,0
-Paciente 85,53,Masculino,Dr. Silva,1Âº Turno,0
-Paciente 86,67,Feminino,Dra. Oliveira,ADM,0
-Paciente 87,57,Feminino,Dr. Silva,2Âº Turno,1
-Paciente 88,21,Feminino,Dr. Souza,ADM,1
-Paciente 89,19,Feminino,Dr. Souza,3Âº Turno,1
-Paciente 90,79,Masculino,Dra. Costa,2Âº Turno,1
-Paciente 91,23,Masculino,Dr. Silva,2Âº Turno,0
-Paciente 92,71,Feminino,Dra. Costa,3Âº Turno,0
-Paciente 93,59,Masculino,Dr. Souza,2Âº Turno,0
-Paciente 94,21,Masculino,Dr. Silva,ADM,1
-Paciente 95,71,Masculino,Dr. Silva,1Âº Turno,1
-Paciente 96,46,Feminino,Dra. Costa,ADM,0
-Paciente 97,35,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 98,43,Masculino,Dr. Silva,1Âº Turno,1
-Paciente 99,61,Feminino,Dra. Costa,ADM,1
-Paciente 100,51,Feminino,Dr. Souza,ADM,0
-Paciente 101,27,Feminino,Dra. Costa,ADM,0
-Paciente 102,79,Feminino,Dra. Oliveira,ADM,1
-Paciente 103,53,Feminino,Dr. Silva,3Âº Turno,0
-Paciente 104,31,Masculino,Dra. Oliveira,2Âº Turno,0
-Paciente 105,48,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 106,65,Masculino,Dra. Oliveira,ADM,1
-Paciente 107,32,Masculino,Dra. Oliveira,ADM,1
-Paciente 108,25,Feminino,Dr. Souza,ADM,1
-Paciente 109,31,Masculino,Dra. Costa,3Âº Turno,1
-Paciente 110,40,Masculino,Dra. Oliveira,ADM,1
-Paciente 111,77,Masculino,Dra. Costa,ADM,1
-Paciente 112,74,Feminino,Dra. Oliveira,ADM,1
-Paciente 113,79,Feminino,Dra. Costa,2Âº Turno,0
-Paciente 114,57,Masculino,Dr. Souza,3Âº Turno,0
-Paciente 115,38,Feminino,Dra. Oliveira,ADM,0
-Paciente 116,33,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 117,62,Feminino,Dra. Oliveira,1Âº Turno,0
-Paciente 118,35,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 119,64,Masculino,Dr. Souza,3Âº Turno,0
-Paciente 120,70,Masculino,Dra. Oliveira,3Âº Turno,1
-Paciente 121,41,Feminino,Dra. Oliveira,1Âº Turno,1
-Paciente 122,43,Feminino,Dra. Oliveira,ADM,0
-Paciente 123,42,Masculino,Dr. Silva,3Âº Turno,0
-Paciente 124,77,Masculino,Dra. Costa,1Âº Turno,1
-Paciente 125,77,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 126,77,Masculino,Dr. Silva,ADM,0
-Paciente 127,62,Feminino,Dr. Souza,2Âº Turno,1
-Paciente 128,58,Feminino,Dra. Oliveira,3Âº Turno,0
-Paciente 129,46,Masculino,Dra. Costa,ADM,1
-Paciente 130,32,Masculino,Dr. Souza,1Âº Turno,0
-Paciente 131,62,Feminino,Dr. Silva,1Âº Turno,1
-Paciente 132,18,Feminino,Dra. Oliveira,ADM,1
-Paciente 133,42,Masculino,Dr. Souza,3Âº Turno,1
-Paciente 134,24,Feminino,Dra. Oliveira,2Âº Turno,0
-Paciente 135,26,Masculino,Dr. Souza,2Âº Turno,1
-Paciente 136,41,Feminino,Dra. Oliveira,1Âº Turno,0
-Paciente 137,18,Masculino,Dr. Silva,3Âº Turno,0
-Paciente 138,61,Masculino,Dra. Costa,2Âº Turno,0
-Paciente 139,25,Masculino,Dr. Silva,3Âº Turno,0
-Paciente 140,41,Feminino,Dra. Costa,3Âº Turno,1
-Paciente 141,28,Feminino,Dra. Oliveira,1Âº Turno,1
-Paciente 142,68,Masculino,Dr. Souza,2Âº Turno,0
-Paciente 143,34,Feminino,Dr. Silva,ADM,0
-Paciente 144,25,Masculino,Dra. Costa,1Âº Turno,1
-Paciente 145,52,Masculino,Dr. Silva,2Âº Turno,0
-Paciente 146,52,Feminino,Dra. Costa,2Âº Turno,1
-Paciente 147,50,Feminino,Dr. Silva,2Âº Turno,0
-Paciente 148,76,Masculino,Dra. Costa,2Âº Turno,0
-Paciente 149,22,Feminino,Dra. Costa,2Âº Turno,1
-Paciente 150,59,Feminino,Dra. Oliveira,3Âº Turno,0
-Paciente 151,56,Masculino,Dra. Costa,1Âº Turno,1
-Paciente 152,75,Masculino,Dra. Oliveira,3Âº Turno,0
-Paciente 153,58,Feminino,Dra. Costa,ADM,0
-Paciente 154,45,Masculino,Dr. Souza,2Âº Turno,0
-Paciente 155,24,Masculino,Dr. Souza,1Âº Turno,1
-Paciente 156,26,Feminino,Dr. Souza,2Âº Turno,0
-Paciente 157,25,Masculino,Dra. Costa,1Âº Turno,0
-Paciente 158,29,Masculino,Dra. Oliveira,3Âº Turno,0
-Paciente 159,51,Feminino,Dra. Oliveira,1Âº Turno,0
-Paciente 160,50,Feminino,Dra. Costa,ADM,1
-Paciente 161,65,Masculino,Dr. Souza,ADM,1
-Paciente 162,72,Masculino,Dr. Souza,1Âº Turno,0
-Paciente 163,40,Feminino,Dra. Oliveira,1Âº Turno,1
-Paciente 164,79,Feminino,Dr. Souza,1Âº Turno,0
-Paciente 165,41,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 166,54,Feminino,Dra. Oliveira,ADM,0
-Paciente 167,52,Masculino,Dr. Souza,2Âº Turno,1
-Paciente 168,61,Feminino,Dra. Oliveira,1Âº Turno,1
-Paciente 169,57,Feminino,Dr. Silva,1Âº Turno,1
-Paciente 170,39,Masculino,Dra. Oliveira,ADM,1
-Paciente 171,44,Feminino,Dra. Oliveira,ADM,1
-Paciente 172,52,Masculino,Dra. Oliveira,3Âº Turno,1
-Paciente 173,18,Feminino,Dra. Oliveira,1Âº Turno,1
-Paciente 174,52,Feminino,Dr. Silva,3Âº Turno,1
-Paciente 175,54,Feminino,Dra. Costa,ADM,1
-Paciente 176,64,Masculino,Dra. Oliveira,ADM,0
-Paciente 177,31,Masculino,Dra. Oliveira,2Âº Turno,1
-Paciente 178,20,Feminino,Dr. Souza,1Âº Turno,1
-Paciente 179,18,Masculino,Dra. Oliveira,3Âº Turno,1
-Paciente 180,22,Masculino,Dr. Souza,ADM,1
-Paciente 181,43,Masculino,Dra. Costa,ADM,1
-Paciente 182,72,Masculino,Dr. Silva,3Âº Turno,1
-Paciente 183,31,Masculino,Dr. Silva,2Âº Turno,1
-Paciente 184,56,Masculino,Dra. Costa,ADM,1
-Paciente 185,44,Feminino,Dr. Silva,1Âº Turno,1
-Paciente 186,26,Feminino,Dra. Costa,ADM,1
-Paciente 187,32,Masculino,Dra. Costa,1Âº Turno,1
-Paciente 188,32,Feminino,Dra. Costa,3Âº Turno,0
-Paciente 189,43,Feminino,Dr. Silva,1Âº Turno,0
-Paciente 190,59,Feminino,Dr. Souza,3Âº Turno,1
-Paciente 191,77,Feminino,Dra. Costa,1Âº Turno,1
-Paciente 192,30,Masculino,Dra. Oliveira,3Âº Turno,0
-Paciente 193,68,Feminino,Dr. Silva,1Âº Turno,1
-Paciente 194,49,Feminino,Dra. Costa,2Âº Turno,0
-Paciente 195,56,Masculino,Dra. Costa,1Âº Turno,0
-Paciente 196,66,Masculino,Dra. Oliveira,1Âº Turno,0
-Paciente 197,69,Feminino,Dr. Souza,2Âº Turno,0
-Paciente 198,78,Feminino,Dr. Souza,ADM,0
-Paciente 199,49,Feminino,Dr. Souza,ADM,1
-Paciente 200,21,Feminino,Dra. Costa,1Âº Turno,0
+Nome;Idade;Genero;Médico;Turno;Atestado
+Ana da Silva;34;F;Dr. Barros;1º turno;0
+Carlos Mendes;56;M;Dra. Almeida;1º turno;1
+Fernanda Rocha;28;F;Dr. Costa;1º turno;0
+João Batista;71;M;Dra. Martins;1º turno;0
+Patrícia Oliveira;22;F;Dr. Oliveira;1º turno;1
+Felipe Souza;42;M;Dr. Barros;1º turno;0
+Larissa Martins;18;F;Dra. Almeida;1º turno;1
+Rafael Lima;65;M;Dr. Costa;1º turno;0
+Camila Duarte;33;F;Dra. Martins;1º turno;0
+Marcos Ferreira;48;M;Dr. Oliveira;1º turno;1
+Juliana Gomes;37;F;Dr. Barros;1º turno;0
+Bruno Cardoso;50;M;Dra. Almeida;1º turno;0
+Vanessa Moreira;25;F;Dr. Costa;1º turno;1
+Lucas Pires;19;M;Dra. Martins;1º turno;0
+Aline Andrade;41;F;Dr. Oliveira;1º turno;0
+Daniel Ribeiro;29;M;Dr. Barros;1º turno;1
+Beatriz Monteiro;21;F;Dra. Almeida;1º turno;0
+Gabriel Barros;12;M;Dr. Costa;1º turno;0
+Isabela Ramos;64;F;Dra. Martins;1º turno;1
+Rodrigo Nogueira;38;M;Dr. Oliveira;1º turno;0
+Mariana Teixeira;32;F;Dr. Barros;1º turno;0
+Thiago Almeida;43;M;Dra. Almeida;1º turno;1
+Paula Freitas;27;F;Dr. Costa;1º turno;0
+Gustavo Antunes;59;M;Dra. Martins;1º turno;0
+Bianca Figueiredo;36;F;Dr. Oliveira;1º turno;1
+André Castro;61;M;Dr. Barros;1º turno;0
+Tatiane Melo;40;F;Dra. Almeida;1º turno;1
+Leonardo Carvalho;53;M;Dr. Costa;1º turno;0
+Karina Costa;30;F;Dra. Martins;1º turno;0
+Eduardo Tavares;47;M;Dr. Oliveira;1º turno;1
+Sabrina Leal;22;F;Dr. Barros;1º turno;0
+Henrique Moura;34;M;Dra. Almeida;1º turno;0
+Jéssica Lopes;29;F;Dr. Costa;1º turno;1
+Matheus Nascimento;18;M;Dra. Martins;1º turno;0
+Elisa Cunha;76;F;Dr. Oliveira;1º turno;0
+Guilherme Araújo;39;M;Dr. Barros;1º turno;1
+Renata Brito;24;F;Dra. Almeida;1º turno;0
+Wellington Sales;52;M;Dr. Costa;1º turno;0
+Paula Bastos;35;F;Dra. Martins;1º turno;1
+Emerson Guimarães;66;M;Dr. Oliveira;1º turno;0
+Alessandra Prado;31;F;Dr. Barros;1º turno;0
+Vinícius Assis;45;M;Dra. Almeida;1º turno;1
+Cristiane Macedo;58;F;Dr. Costa;1º turno;0
+Leandro Reis;41;M;Dra. Martins;1º turno;0
+Adriana Martins;28;F;Dr. Oliveira;1º turno;1
+Robson Barros;37;M;Dr. Barros;1º turno;0
+Michele Souza;26;F;Dra. Almeida;1º turno;1
+Everton Ribeiro;49;M;Dr. Costa;1º turno;0
+Natália Moura;33;F;Dra. Martins;1º turno;0
+Douglas Fernandes;56;M;Dr. Oliveira;1º turno;1
+Lívia Cardoso;20;F;Dr. Barros;1º turno;0
+Renato Silveira;44;M;Dra. Almeida;1º turno;0
+Amanda Costa;27;F;Dr. Costa;1º turno;1
+Pedro Martins;60;M;Dra. Martins;1º turno;0
+Cláudia Moreira;68;F;Dr. Oliveira;1º turno;0
+Murilo Rocha;23;M;Dr. Barros;1º turno;1
+Thaís Ferreira;36;F;Dra. Almeida;1º turno;0
+Alan Dias;43;M;Dr. Costa;1º turno;0
+Ingrid Nunes;25;F;Dra. Martins;1º turno;1
+Samuel Melo;54;M;Dr. Oliveira;1º turno;0
+Luciana Pereira;40;F;Dr. Barros;1º turno;0
+Caio Duarte;13;M;Dra. Almeida;1º turno;1
+Tainá Campos;30;F;Dr. Costa;1º turno;0
+Diego Sales;49;M;Dra. Martins;1º turno;0
+Érica Lima;34;F;Dr. Oliveira;1º turno;1
+Ítalo Andrade;46;M;Dr. Barros;1º turno;0
+Daiane Tavares;29;F;Dra. Almeida;1º turno;1
+Vitor Pacheco;63;M;Dr. Costa;1º turno;0
+Bruna Alves;19;F;Dra. Martins;1º turno;0
+Raul Oliveira;71;M;Dr. Oliveira;1º turno;1
+Gisele Braga;22;F;Dr. Barros;1º turno;0
+Danilo Batista;52;M;Dra. Almeida;1º turno;0
+Heloísa Monteiro;35;F;Dr. Costa;1º turno;1
+Jorge Mendes;70;M;Dra. Martins;1º turno;0
+Lorena Campos;32;F;Dr. Oliveira;1º turno;0
+Fábio Ribeiro;44;M;Dr. Barros;1º turno;1
+Letícia Moura;26;F;Dra. Almeida;1º turno;0
+Cássio Barros;59;M;Dr. Costa;1º turno;0
+Priscila Nogueira;37;F;Dra. Martins;1º turno;1
+Sérgio Almeida;61;M;Dr. Oliveira;1º turno;0
+Melissa Prado;20;F;Dr. Barros;2º turno;0
+Alex Teixeira;47;M;Dra. Almeida;2º turno;1
+Carla Cunha;33;F;Dr. Costa;2º turno;0
+Márcio Ramos;56;M;Dra. Martins;2º turno;0
+Vivian Cardoso;28;F;Dr. Oliveira;2º turno;1
+Alan Costa;45;M;Dr. Barros;2º turno;0
+Aline Antunes;19;F;Dra. Almeida;2º turno;1
+Jonathan Assis;50;M;Dr. Costa;2º turno;0
+Yasmin Macedo;16;F;Dra. Martins;2º turno;0
+Lucas Freitas;23;M;Dr. Oliveira;2º turno;1
+Viviane Rocha;29;F;Dr. Barros;2º turno;0
+Roberta Leal;41;F;Dra. Almeida;2º turno;0
+Leonardo Bastos;55;M;Dr. Costa;2º turno;1
+Rafael Tavares;38;M;Dra. Martins;2º turno;0
+Cristiane Sales;34;F;Dr. Oliveira;2º turno;0
+Mateus Guimarães;18;M;Dr. Barros;2º turno;1
+Sônia Monteiro;66;F;Dra. Almeida;2º turno;0
+José Antônio;79;M;Dr. Costa;2º turno;0
+Elisângela Nogueira;35;F;Dra. Martins;2º turno;1
+Wagner Lima;43;M;Dr. Oliveira;2º turno;0
+Cíntia Ferreira;65;F;Dr. Barros;2º turno;0
+Andréa Duarte;25;M;Dra. Almeida;2º turno;1
+Alexandre Costa;30;F;Dr. Costa;2º turno;0
+Denise Figueiredo;12;M;Dra. Martins;2º turno;0
+Michel Souza;33;F;Dr. Oliveira;2º turno;1
+Tatiane Andrade;67;M;Dr. Barros;2º turno;0
+Ícaro Ramos;47;F;Dra. Almeida;2º turno;1
+Flávia Lopes;38;M;Dr. Costa;2º turno;0
+André Tavares;55;F;Dra. Martins;2º turno;0
+Patrícia Dias;22;M;Dr. Oliveira;2º turno;1
+Diogo Pires;39;F;Dr. Barros;2º turno;0
+Suelen Martins;41;M;Dra. Almeida;2º turno;0
+Maurício Almeida;19;F;Dr. Costa;2º turno;1
+Vitória Moreira;44;M;Dra. Martins;2º turno;0
+Antônio Carlos;63;F;Dr. Oliveira;2º turno;0
+Mariana Bastos;18;M;Dr. Barros;2º turno;1
+Wellington Teixeira;58;F;Dra. Almeida;2º turno;0
+Laís Rocha;53;M;Dr. Costa;2º turno;0
+Júnior Barros;60;F;Dra. Martins;2º turno;1
+Simone Prado;26;M;Dr. Oliveira;2º turno;0
+Eduardo Pacheco;36;F;Dr. Barros;2º turno;0
+Gabriela Cardoso;42;M;Dra. Almeida;2º turno;1
+Fábio Nogueira;13;F;Dr. Costa;2º turno;0
+Karol Monteiro;35;M;Dra. Martins;2º turno;0
+Fernando Leal;20;F;Dr. Oliveira;2º turno;1
+Rebeca Lima;54;M;Dr. Barros;2º turno;0
+Igor Batista;73;F;Dra. Almeida;2º turno;1
+Elaine Martins;21;M;Dr. Costa;2º turno;0
+Breno Sales;62;F;Dra. Martins;2º turno;0
+Talita Andrade;41;M;Dr. Oliveira;2º turno;1
+Bruno Silveira;65;F;Dr. Barros;2º turno;0
+Camila Antunes;57;M;Dra. Almeida;2º turno;0
+Jefferson Ramos;29;F;Dr. Costa;2º turno;1
+Raquel Tavares;26;M;Dra. Martins;2º turno;0
+Davi Figueiredo;45;F;Dr. Oliveira;2º turno;0
+Mônica Cunha;68;M;Dr. Barros;2º turno;1
+Cléber Assis;24;F;Dra. Almeida;2º turno;0
+Débora Pires;49;M;Dr. Costa;2º turno;0
+Renato Almeida;37;F;Dra. Martins;2º turno;1
+Joana Freitas;18;M;Dr. Oliveira;2º turno;0
+Luan Moura;46;F;Dr. Barros;2º turno;0
+Isadora Bastos;66;M;Dra. Almeida;2º turno;1
+Sérgio Ribeiro;25;F;Dr. Costa;2º turno;0
+Cássia Leal;51;M;Dra. Martins;2º turno;0
+Douglas Martins;63;F;Dr. Oliveira;2º turno;1
+Júlia Lopes;40;M;Dr. Barros;2º turno;0
+Emerson Cardoso;30;F;Dra. Almeida;2º turno;1
+Geovana Sales;74;M;Dr. Costa;2º turno;0
+Robson Lima;14;F;Dra. Martins;2º turno;0
+Larissa Monteiro;39;M;Dr. Oliveira;2º turno;1
+Luciano Barros;20;F;Dr. Barros;ADM;0
+Paloma Teixeira;48;M;Dra. Almeida;ADM;0
+Daniel Nogueira;57;F;Dr. Costa;ADM;1
+Mirela Costa;38;M;Dra. Martins;ADM;0
+Rafael Brito;19;F;Dr. Oliveira;ADM;0
+Clarissa Andrade;67;M;Dr. Barros;ADM;1
+Leandro Dias;33;F;Dra. Almeida;ADM;0
+Tamires Pacheco;22;M;Dr. Costa;ADM;0
+Maurício Rocha;79;F;Dra. Martins;ADM;1
+Paula Antunes;53;M;Dr. Oliveira;ADM;0
+Caio Figueiredo;16;F;Dr. Barros;ADM;0
+Michele Souza;62;M;Dra. Almeida;ADM;1
+Vinícius Duarte;18;F;Dr. Costa;ADM;0
+Ana Clara Cardoso;54;M;Dra. Martins;ADM;0
+Rodrigo Silva;36;F;Dr. Oliveira;ADM;1
+Lorena Bastos;49;M;Dr. Barros;ADM;0
+Felipe Macedo;11;F;Dra. Almeida;ADM;1
+Carolina Almeida;60;M;Dr. Costa;ADM;0
+Jorge Mendes;43;F;Dra. Martins;ADM;0
+Bianca Moreira;51;M;Dr. Oliveira;ADM;1
+Otávio Ramos;33;F;Dr. Barros;ADM;0
+Laila Andrade;28;M;Dra. Almeida;ADM;0
+Edson Tavares;55;F;Dr. Costa;ADM;1
+Fabiana Prado;22;M;Dra. Martins;ADM;0
+Vagner Lopes;48;F;Dr. Oliveira;ADM;0
+Natália Figueiredo;77;M;Dr. Barros;ADM;1
+João Victor Freitas;65;F;Dra. Almeida;ADM;0
+Elisângela Guimarães;66;M;Dr. Costa;ADM;0
+Samuel Costa;24;F;Dra. Martins;ADM;1
+Thalita Cardoso;41;M;Dr. Oliveira;ADM;0
+Fábio Rocha;19;F;Dr. Barros;ADM;0
+Heloísa Mendes;29;M;Dra. Almeida;ADM;1
+Wallace Nogueira;57;F;Dr. Costa;ADM;0
+Luciana Sales;72;M;Dra. Martins;ADM;0
+Dênis Bastos;13;F;Dr. Oliveira;ADM;1
+Mônica Figueiredo;70;M;Dr. Barros;ADM;0
+André Silva;34;F;Dra. Almeida;ADM;1
+Sâmia Almeida;60;M;Dr. Costa;ADM;0
+Renato Cardoso;47;F;Dra. Martins;ADM;0
+Laiane Moreira;38;M;Dr. Oliveira;ADM;1
+Ítalo Mendes;54;F;Dr. Barros;ADM;0
+Viviane Tavares;62;M;Dra. Almeida;ADM;0
+Márcio Rocha;23;F;Dr. Costa;ADM;1
+Gabriela Nogueira;33;M;Dra. Martins;ADM;0
+Robson Guimarães;14;F;Dr. Oliveira;ADM;0
+Fernanda Antunes;36;M;Dr. Barros;ADM;1
+Everton Teixeira;53;F;Dra. Almeida;ADM;0
+Sabrina Ramos;66;M;Dr. Costa;ADM;0
+Rafael Cunha;25;F;Dra. Martins;ADM;1
+Bruna Silveira;79;M;Dr. Oliveira;ADM;0
