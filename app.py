@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import binom, poisson
+import numpy as np
 
 # Configuração da página
 st.set_page_config(page_title="Painel de Atendimento Médico", layout="wide")
@@ -42,26 +43,20 @@ with st.container():
 
     with col_graf1:
         st.markdown("Atendimentos por Médico")
-        if df["Medico"].nunique() > 0:
-            fig1, ax1 = plt.subplots(figsize=(3.5, 2.5))
-            sns.countplot(data=df, x="Medico", ax=ax1, palette="coolwarm")
-            ax1.set_xlabel("")
-            ax1.set_ylabel("Qtd")
-            plt.xticks(rotation=45)
-            st.pyplot(fig1)
-        else:
-            st.warning("Nenhum dado disponível para Médicos.")
+        fig1, ax1 = plt.subplots(figsize=(3.5, 2.5))
+        sns.countplot(data=df, x="Medico", ax=ax1, palette="coolwarm")
+        ax1.set_xlabel("")
+        ax1.set_ylabel("Qtd")
+        plt.xticks(rotation=45)
+        st.pyplot(fig1)
 
     with col_graf2:
         st.markdown("Atendimentos por Turno")
-        if df["Turno"].nunique() > 0:
-            fig2, ax2 = plt.subplots(figsize=(3.5, 2.5))
-            sns.countplot(data=df, x="Turno", order=df["Turno"].value_counts().index, ax=ax2, palette="viridis")
-            ax2.set_xlabel("")
-            ax2.set_ylabel("Qtd")
-            st.pyplot(fig2)
-        else:
-            st.warning("Nenhum dado disponível para Turnos.")
+        fig2, ax2 = plt.subplots(figsize=(3.5, 2.5))
+        sns.countplot(data=df, x="Turno", order=df["Turno"].value_counts().index, ax=ax2, palette="viridis")
+        ax2.set_xlabel("")
+        ax2.set_ylabel("Qtd")
+        st.pyplot(fig2)
 
 # Segunda linha de gráficos
 with st.container():
@@ -70,25 +65,19 @@ with st.container():
     with col_graf3:
         st.markdown("Casos Respiratórios por Idade")
         respiratorio_df = df[df["SindRespiratoria"] == 1]
-        if not respiratorio_df.empty:
-            fig3, ax3 = plt.subplots(figsize=(3.5, 2.5))
-            sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
-            ax3.set_xlabel("Idade")
-            ax3.set_ylabel("Casos")
-            st.pyplot(fig3)
-        else:
-            st.warning("Nenhum caso respiratório registrado.")
+        fig3, ax3 = plt.subplots(figsize=(3.5, 2.5))
+        sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
+        ax3.set_xlabel("Idade")
+        ax3.set_ylabel("Casos")
+        st.pyplot(fig3)
 
     with col_graf4:
         st.markdown("Distribuição por Gênero")
-        if df["Genero"].nunique() > 0:
-            fig4, ax4 = plt.subplots(figsize=(3.5, 2.5))
-            sns.countplot(data=df, x="Genero", ax=ax4, palette="pastel")
-            ax4.set_xlabel("")
-            ax4.set_ylabel("Qtd")
-            st.pyplot(fig4)
-        else:
-            st.warning("Nenhum dado disponível para Gênero.")
+        fig4, ax4 = plt.subplots(figsize=(3.5, 2.5))
+        sns.countplot(data=df, x="Genero", ax=ax4, palette="pastel")
+        ax4.set_xlabel("")
+        ax4.set_ylabel("Qtd")
+        st.pyplot(fig4)
 
 st.divider()
 
@@ -124,6 +113,15 @@ else:
     st.write(f"Com base em uma taxa observada de {p_atestado:.1%} de emissão de atestados,")
     st.write(f"a probabilidade de pelo menos {k} atestados em {n} pacientes é **{prob_5oumais:.2%}**.")
 
+    # Gráfico da distribuição binomial
+    probs_binom = [binom.pmf(i, n, p_atestado) for i in range(n+1)]
+    fig_b, ax_b = plt.subplots(figsize=(5, 3))
+    bars = ax_b.bar(range(n+1), probs_binom, color=["gray" if i < k else "orange" for i in range(n+1)])
+    ax_b.set_xlabel("Número de Atestados")
+    ax_b.set_ylabel("Probabilidade")
+    ax_b.set_title("Distribuição Binomial")
+    st.pyplot(fig_b)
+
 st.divider()
 
 # POISSON - probabilidade de casos respiratórios
@@ -134,5 +132,14 @@ k_poisson = st.slider("Número de casos respiratórios desejados (ou mais)", min
 prob_3oumais = 1 - poisson.cdf(k_poisson - 1, casos_por_turno)
 
 st.write(f"A média de casos respiratórios por turno é **{casos_por_turno:.2f}**.")
-st.write(f"A probabilidade de ocorrerem pelo menos {k_poisson} casos em um turno é **{prob_3oumais:.2%}**.")
+st.write(f"A probabilidade de pelo menos {k_poisson} casos em um turno é **{prob_3oumais:.2%}**.")
 
+# Gráfico da distribuição de Poisson
+max_k = 10
+probs_poisson = [poisson.pmf(i, casos_por_turno) for i in range(max_k+1)]
+fig_p, ax_p = plt.subplots(figsize=(5, 3))
+bars_p = ax_p.bar(range(max_k+1), probs_poisson, color=["gray" if i < k_poisson else "orange" for i in range(max_k+1)])
+ax_p.set_xlabel("Número de Casos")
+ax_p.set_ylabel("Probabilidade")
+ax_p.set_title("Distribuição de Poisson")
+st.pyplot(fig_p)
