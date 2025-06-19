@@ -4,77 +4,84 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Configuração da página
-st.set_page_config(page_title="Dashboard Atendimento", layout="wide")
+st.set_page_config(page_title="Painel de Atendimento Médico", layout="wide")
 
-# Função para carregar dados com encoding e separador corretos
+# Função para carregar os dados
 @st.cache_data
 def carregar_dados():
     df = pd.read_csv("atendimentos.csv", sep=';', encoding='latin-1')
-    # Normalizar nomes das colunas
-    df.columns = [col.strip() for col in df.columns]
+    df.columns = df.columns.str.strip()  # Remove espaços extras nos nomes das colunas
     return df
 
+# Carregar os dados
 df = carregar_dados()
 
-# Título da página
-st.title("📊 Dashboard de Atendimento Médico")
+# Título
+st.title("📊 Painel de Atendimento Médico")
 
-# Cálculo de métricas
+# Cálculo das métricas
 media_idade = df["Idade"].mean()
 total_atestados = df[df["Atestado"] == 1].shape[0]
-total_respiratorio = df[df["Síndrome_Respiratória"] == 1].shape[0]
+total_respiratorio = df[df["SindRespiratoria"] == 1].shape[0]
 
-# Layout de cards de métricas
+# Cards de métricas no topo
+st.markdown("### 📊 Resumo dos Atendimentos")
 col1, col2, col3 = st.columns(3)
-col1.metric("📈 Média de Idade", f"{media_idade:.1f} anos")
-col2.metric("📄 Atestados Emitidos", total_atestados)
-col3.metric("💨 Casos Respiratórios", total_respiratorio)
+with col1:
+    st.metric("📈 Média de Idade", f"{media_idade:.1f} anos")
+with col2:
+    st.metric("📄 Atestados Emitidos", total_atestados)
+with col3:
+    st.metric("💨 Casos Respiratórios", total_respiratorio)
 
 st.divider()
 
-# Grade de gráficos 2x2 compacta
-linha1_col1, linha1_col2 = st.columns(2)
-linha2_col1, linha2_col2 = st.columns(2)
+# Linha de gráficos (2 colunas)
+with st.container():
+    col_graf1, col_graf2 = st.columns(2)
 
-with linha1_col1:
-    st.subheader("Atendimentos por Médico")
-    fig1, ax1 = plt.subplots(figsize=(4, 2.8))
-    sns.countplot(data=df, x="Médico", ax=ax1, palette="coolwarm")
-    ax1.set_xlabel("")
-    ax1.set_ylabel("Qtd")
-    plt.xticks(rotation=45)
-    st.pyplot(fig1)
+    with col_graf1:
+        st.markdown("#### 📑 Atendimentos por Médico")
+        fig1, ax1 = plt.subplots(figsize=(3.5, 2.5))
+        sns.countplot(data=df, x="Medico", ax=ax1, palette="coolwarm")
+        ax1.set_xlabel("")
+        ax1.set_ylabel("Qtd")
+        plt.xticks(rotation=45)
+        st.pyplot(fig1)
 
-with linha1_col2:
-    st.subheader("Atendimentos por Turno")
-    fig2, ax2 = plt.subplots(figsize=(4, 2.8))
-    sns.countplot(data=df, x="Turno", order=df["Turno"].value_counts().index, ax=ax2, palette="viridis")
-    ax2.set_xlabel("")
-    ax2.set_ylabel("Qtd")
-    plt.xticks(rotation=0)
-    st.pyplot(fig2)
+    with col_graf2:
+        st.markdown("#### 🕑 Atendimentos por Turno")
+        fig2, ax2 = plt.subplots(figsize=(3.5, 2.5))
+        sns.countplot(data=df, x="Turno", order=df["Turno"].value_counts().index, ax=ax2, palette="viridis")
+        ax2.set_xlabel("")
+        ax2.set_ylabel("Qtd")
+        st.pyplot(fig2)
 
-with linha2_col1:
-    st.subheader("Casos Respiratórios por Idade")
-    respiratorio_df = df[df["Síndrome_Respiratória"] == 1]
-    fig3, ax3 = plt.subplots(figsize=(4, 2.8))
-    sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
-    ax3.set_xlabel("Idade")
-    ax3.set_ylabel("Casos")
-    st.pyplot(fig3)
+# Segunda linha de gráficos
+with st.container():
+    col_graf3, col_graf4 = st.columns(2)
 
-with linha2_col2:
-    st.subheader("Distribuição por Gênero")
-    fig4, ax4 = plt.subplots(figsize=(4, 2.8))
-    sns.countplot(data=df, x="Gênero", ax=ax4, palette="pastel")
-    ax4.set_xlabel("")
-    ax4.set_ylabel("Qtd")
-    st.pyplot(fig4)
+    with col_graf3:
+        st.markdown("#### 💨 Casos Respiratórios por Idade")
+        respiratorio_df = df[df["SindRespiratoria"] == 1]
+        fig3, ax3 = plt.subplots(figsize=(3.5, 2.5))
+        sns.histplot(respiratorio_df["Idade"], bins=10, kde=True, color="purple", ax=ax3)
+        ax3.set_xlabel("Idade")
+        ax3.set_ylabel("Casos")
+        st.pyplot(fig3)
+
+    with col_graf4:
+        st.markdown("#### 👥 Distribuição por Gênero")
+        fig4, ax4 = plt.subplots(figsize=(3.5, 2.5))
+        sns.countplot(data=df, x="Genero", ax=ax4, palette="pastel")
+        ax4.set_xlabel("")
+        ax4.set_ylabel("Qtd")
+        st.pyplot(fig4)
 
 st.divider()
 
-# Botão para exportar CSV
-st.subheader("📥 Exportar Dados")
+# Botão de exportação CSV
+st.markdown("### 📥 Exportar Dados")
 csv = df.to_csv(index=False, sep=';', encoding='utf-8-sig').encode('utf-8-sig')
 st.download_button(
     label="📥 Baixar CSV",
